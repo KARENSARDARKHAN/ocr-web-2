@@ -1,10 +1,208 @@
-*,::after,::before{
-box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,300;1,700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
 
 *{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway','calibri','Arial',sans-serif;
+    color: black;
 }
 
+*{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#logo{
+    width: 85px;
+    height: 40px;
+    margin-left:9px ;
+
+}
+    
+
+.linksnav{
+    align-content: flex-end;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#linkheberg{
+
+}
+
+#linkactivi{
+    margin-left: 30px;
+    margin-right: 7px;
+}
+
+#searchform{
+    display: flex;
+}
+
+.fa-solid fa-location-dot{
+    background-color:#F2F2F2 ;
+    border-radius:15px 0 15px 0;
+    text-align: center;
+    width: 18px;
+    height:13px;
+}
+
+
+#rechercher{
+    width: 144.85px;
+    height:15.21px ;
+
+}
+
+.searchbutton{
+    background-color: #0065fc;
+    color: white;
+    font-weight: bold;
+    font-size: larger
+    text-align: center
+    
+    
+
+
+}
+
+
+.linksnav{
+    display: flex;
+}
+
+.filtres{
+    display: flex;
+}
+
+#economique{
+    display: flex;
+}
+
+.recherche i{
+    background-color: #F2F2F2;
+    border-radius:15px 0 0 15px;
+    height: 50px;
+    width: 50px;
+
+}
+
+.lineune{
+    display: flex;
+    justify-content: center;
+}
+
+.linedeux{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color:white;
+    width: 1440px;
+    height:1884px ;
+}
+
+.card{
+    background-color:white;
+    width:246px;
+    height: 199px ;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.card img{
+    width:241px ;
+    height:119px;
+    border-radius:15px 15px 0px 0px ;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.hebergementcontainer{
+    display: flex;
+    background-color: white;
+    width: 100%;
+}
+
+
+.hebergementsamarseille{
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    border-radius:15px 15px 15px 15px ;
+    width: 880px;
+    height:626px;
+    margin-left:20px ;
+    padding-top: 8px;
+}
+
+
+.lespluspopulaires{
+    background-color:#F2F2F2 ;
+    border-radius:15px 15px 15px 15px ;
+    width: 420px;
+    height:626px ;
+    margin-left:31px ;
+    display: flex;
+    flex-direction: column ;
+}
+
+
+.titleandstar{
+    display: flex;
+}
+
+#lespluspopulaires{
+    align-self: flex-end;
+    margin-left: 80px;
+}
+
+#blackstar{
+    align-self: flex-end;
+}
+
+
+.linetrois{
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card2{
+    width: 343px;
+    height: 144px;
+    background-color: white;
+    border-radius:15px 15px 15px 15px;
+    margin-bottom:20px;
+    display: flex;
+}
+
+.card2 img{
+    width:132px ;
+    height:139px;
+    border-radius:15px 15px 0px 0px ;
+}
+
+footer{
+    width: 1440px;
+    height: 225px;
+    background-color:#F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    align-content: left;
+}
+
+footer a{
+
+    color: black;
+}

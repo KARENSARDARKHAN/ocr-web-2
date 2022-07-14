@@ -1,101 +1,289 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="IE=edge">
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link rel="stylesheet" href="./CSS/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" 
-    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" 
-    integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" 
-    crossorigin="anonymous">
-    <title>Booki</title>
-</head>
-<body>
-    <div id="bloc_page">
-        <header>
-            <nav> 
-                <img src="./images/logo/Booki@3x.png" alt="logobooki">
-                <ul>
-                    <li><a href="#" _msthash="960089" _msttexthash="92079">Accueil</a></li>
-                    <li><a href="#" _msthash="960219" _msttexthash="43615">Blog</a></li>
-                </ul>
-            </nav>
-            <div id="titre_principal">
-                <div id="logo">
-                    <img src="images/zozor_logo.png" alt="Logo de Zozor" _mstalt="182481" style="text-align: left;">
-                    <h1 _msthash="115908" _msttexthash="64740" style="text-align: left;">Zozor</h1>    
-                </div>
-                <h2 _msthash="435578" _msttexthash="289393" style="text-align: left;">Carnets de voyage</h2>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content"IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Booki site de réservation séjours hotels et activités">
+      <link rel="stylesheet" href="./CSS/style.css"/>
+      <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+      <script src="https://kit.fontawesome.com/666540edff.js" crossorigin="anonymous"></script>
+      
+      <title>Booki</title>
+    </head>
+  
+    <body>
+    
+    
+    <header>
+        <nav class="navbar" >
+            <div>
+                <a href="index.html"><img id="logo" src="./images/logo/Booki.png" alt="logobooki"></a>
             </div>
-            
-            <nav>
-                <img src="./images/logo/Booki@3x.png" alt="logobooki">
-                <ul>
-                    <li><a href="#" _msthash="960089" _msttexthash="92079">Accueil</a></li>
-                    <li><a href="#" _msthash="960219" _msttexthash="43615">Blog</a></li>
-                    <li><a href="#" _msthash="960349" _msttexthash="15041">CV</a></li>
-                    <li><a href="#" _msthash="960479" _msttexthash="94510">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-        
-        <div id="banniere_image">
-            <div id="banniere_description" style="text-align: left;"><font _mstmutation="1" _msthash="458640" _msttexthash="1144806">
-                Retour sur mes vacances aux États-Unis...
-                </font><a href="#" class="bouton_rouge"><font _mstmutation="1" _msthash="600418" _msttexthash="221702">Voir l'article </font><img src="images/flecheblanchedroite.png" alt=""></a>
+            <div>
+            <ul class="linksnav" >
+                <a  id="linkheberg" href="#hebergementsamarseille"><li>Hébergements</li></a>
+                <a id="linkactivi"  href="#activitesamarseille"><li>Activités</li></a>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    
+    
+    
+    
+    
+    <main>
+
+
+
+
+        <section class="recherche">
+            <div class="1">
+                <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
+                <p>En plein centre-ville ou en pleine nature</p>
+            </div>
+            <br><br>
+            <div class="2">
+                <form id="searchform"  method="post" action="traitement.php">  
+                    <i id="searchdot"  class="fa-solid fa-location-dot"></i>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                    <input type="search" name="rechercher" id="rechercher" placeholder="Marseille,France">
+                    <a class="searchbutton"  href="#">Rechercher</a>
+                </form>
+            </div>
+        </section>
+
+
+
+    <section class="filtres" >
+            <span>Filtres</span>
+            <div id=economique>
+                <div>
+                <i class="fa-solid fa-money-bill-wave"></i>
+                </div>
+                <p>Économique</p>
+            </div>
+            <div id=familial>
+                <div>
+                <i class="fa-solid fa-child-reaching"></i>
+                </div>
+                <p>Familial</p>
+            </div>
+            <div id=romantique>
+                <div>
+                <i class="fa-solid fa-heart"></i>
+                </div>
+                <p>Romantique</p>
+            </div>
+            <div id=animauxautorisés>
+                <div>
+                <i class="fa-solid fa-dog"></i>
+                </div>
+                <p>Animaux autorisés</p>
+            </div>
+            <div class="info">
+                <div>
+                <i class="fa-solid fa-info"></i>
+                </div>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+             </div>
+    </section>
+
+
+
+
+
+
+
+<section class="hebergementcontainer">
+   
+    <div class="hebergementsamarseille" id="hebergementsamarseille" >
+    
+        <h2>Hébergements à Marseille</h2>
+        <br><br>
+    
+    <div class="lineune">
+        <div class="hotel1 card">
+            <img src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="aubergelacannebière">
+           <div>
+            <h3>Auberge la cannebière</h3>
+            <P>Nuit à partir de <strong>25€</strong></P>
+            <div class="stars reviews">
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#F2F2F2;"></i>
+            </div>
             </div>
         </div>
-        
-        <section>
-            <article>
-                <h1 style="text-align: left;"><img src="images/ico_epingle.png" alt="Catégorie voyage" class="ico_categorie" _mstalt="305864" style="text-align: left;"><font _mstmutation="1" _msthash="987155" _msttexthash="503438">Je suis un grand voyageur</font></h1>
-                <p _msthash="944034" _msttexthash="223759146" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
-                <p _msthash="944151" _msttexthash="255778562" style="text-align: left;">Vivamus sed libero nec mauris pulvinar facilisis ut non sem. Quisque mollis ullamcorper diam vel faucibus. Vestibulum sollicitudin facilisis feugiat. Nulla euismod sodales hendrerit. Donec quis orci arcu. Vivamus fermentum magna a erat ullamcorper dignissim pretium nunc aliquam. Aenean pulvinar condimentum enim a dignissim. Vivamus sit amet lectus at ante adipiscing adipiscing eget vitae felis. In at fringilla est. Cras id velit ut magna rutrum commodo. Etiam ut scelerisque purus. Duis risus elit, venenatis vel rutrum in, imperdiet in quam. Sed vestibulum, libero ut bibendum consectetur, eros ipsum ultrices nisl, in rutrum diam augue non tortor. Fusce nec massa et risus dapibus aliquam vitae nec diam.</p>
-                <p _msthash="944268" _msttexthash="158473952" style="text-align: left;">Phasellus ligula massa, congue ac vulputate non, dignissim at augue. Sed auctor fringilla quam quis porttitor. Praesent vitae dignissim magna. Pellentesque voulu sans purus, vel elementum mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas consectetur euismod urn. In hac habitasse platea dictumst. Quisque tincidunt porttitor vestibulum. Ut iaculis, lacus at molestie lacinia, ipsum mi adipiscing ligula, vel mollis sem risus eu lectus. Nunc elit quam, rutrum ut dignissim sit amet, egestas na sem.</p>
-            </article>
-            <aside>
-                <h1 _msthash="883909" _msttexthash="355511" style="text-align: left;">À propos de l'auteur</h1>
-                <img src="images/bulle.png" alt="" id="fleche_bulle">
-                <p id="photo_zozor"><img src="images/zozor_classe.png" alt="Photo de Zozor" _mstalt="209313"></p>
-                <p _msthash="843895" _msttexthash="4055051" style="text-align: left;">Laisse-moi le temps de me présenter&nbsp;: je m'appelle Zozor, je suis né un 23 novembre 2005.</p>
-                <p _msthash="844012" _msttexthash="10688912" style="text-align: left;">Bien maigre, n'est-ce pas ? C'est pourquoi, aujourd'hui, j'ai décidé d'écrire ma biographie afin que vous sachiez qui je suis réellement.</p>
-                <p><img src="images/facebook.png" alt="Facebook (en anglais seulement" _mstalt="733707" style="text-align: left;"><img src="images/twitter.png" alt="Gazouiller" _mstalt="159679" style="text-align: left;"><img src="images/vimeo.png" alt="Vimeo" _mstalt="60502" style="text-align: left;"><img src="images/flickr.png" alt="Sur Flickr" _mstalt="132418" style="text-align: left;"><img src="images/rss.png" alt="RSS" _mstalt="25805" style="text-align: left;"></p>
-            </aside>
-        </section>
-        
-        <footer>
-            <div id="tweet">
-                <h1 _msthash="140192" _msttexthash="294112" style="text-align: left;">Mon dernier tweet</h1>
-                <p _msthash="126295" _msttexthash="153517" style="text-align: left;">Ce haaaaaan !</p>
-                <p _msthash="126412" _msttexthash="188955" style="text-align: left;">le 12 mai à 23h12</p>
+
+        <div class="hotel2 card">
+            <img src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hotelduport">
+            <h3>Hotel du port</h3>
+            <P>Nuit à partir de <strong>25€</strong></P>
+            <div class="stars reviews">
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#F2F2F2;"></i>
             </div>
-            <div id="mes_photos">
-                <h1 _msthash="274469" _msttexthash="139945" style="text-align: left;">Mes photos</h1>
-                <p><img src="images/photo1.jpg" alt="Photographie" _mstalt="205335" style="text-align: left;"><img src="images/photo2.jpg" alt="Photographie" _mstalt="205335" style="text-align: left;"><img src="images/photo3.jpg" alt="Photographie" _mstalt="205335" style="text-align: left;"><img src="images/photo4.jpg" alt="Photographie" _mstalt="205335" style="text-align: left;"></p>
+        </div>
+           
+        <div class="hotel3 card">
+            <img src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hotellesmouettes">
+            <h3>Hotel Les mouettes</h3>
+            <P>Nuit à partir de <strong>25€</strong></P>
+            <div class="stars reviews">
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#F2F2F2;"></i>
             </div>
-            <div id="mes_amis">
-                <h1 _msthash="210548" _msttexthash="94978" style="text-align: left;">Mes amis</h1>
-                <div id="listes_amis">
-                    <ul>
-                        <li><a href="#" _msthash="457392" _msttexthash="181298">Pupi le lapin</a></li>
-                        <li><a href="#" _msthash="457522" _msttexthash="97513">M. Baobab</a></li>
-                        <li><a href="#" _msthash="457652" _msttexthash="92664">Kaiwaii</a></li>
-                        <li><a href="#" _msthash="457782" _msttexthash="168727">Perceval.eu</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="#" _msthash="457587" _msttexthash="94029">Belette</a></li>
-                        <li><a href="#" _msthash="457717" _msttexthash="391690">Le concombre masqué</a></li>
-                        <li><a href="#" _msthash="457847" _msttexthash="158587">Ptit prince</a></li>
-                        <li><a href="#" _msthash="457977" _msttexthash="48321">M. Fan</a></li>
-                    </ul>
+        </div>
+    </div>   
+
+
+
+
+
+     <div class="linedeux">
+        <div class="hotel4 card">
+            <img src="./images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hoteldelamer">
+            <h3>Hotel de la mer</h3>
+            <P>Nuit à partir de <strong>25€</strong></P>
+            <div class="stars reviews">
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#F2F2F2;"></i>
+            </div>
+        </div>
+
+        <div class="hotel5 card">
+            <img src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="aubergelepanier">
+            <h3>Auberge le panier</h3>
+            <P>Nuit à partir de <strong>25€</strong></P>
+            <div class="stars reviews">
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#F2F2F2;"></i>
+            </div>
+        </div>
+           
+        <div class="hotel6 card">
+            <img src="./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="hotelchezamina">
+            <h3>Hotel chez Amina</h3>
+            <P>Nuit à partir de <strong>25€</strong></P>
+            <div class="stars reviews">
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                <i class="fa-solid fa-star" style="color:#F2F2F2;"></i>
+            </div>
+        </div>
+    </div>  
+    <br><br>
+   <div><p>Afficher plus</p></div>
+ </div>
+   
+
+
+<div class="lespluspopulaires" >
+    <span class="titleandstar" >
+    <h2 id="Lespluspopulaires">Les plus populaires <i class="fa-solid fa-star" style="color:black" id="blackstar"></i></h2>
+    </span> 
+    <div class="linetrois">
+        <div class="hotel4 card2">
+            <img src="" alt="">
+            <div>
+             <h3>Auberge la cannebière</h3>
+             <P>Nuit à partir de <strong>25€</strong></P>
+                <div class="stars reviews">
+                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                    <i class="fa-solid fa-star" style="color:#F2F2F2;"></i>
                 </div>
-            </div>
-        </footer>
-    </div>
+                </div>
+                </div>
+                <div class="hotel5 card2">
+                    <img src="" alt="">
+                    <div>
+                     <h3>Auberge la cannebière</h3>
+                     <P>Nuit à partir de <strong>25€</strong></P>
+                        <div class="stars reviews">
+                            <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                            <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                            <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                            <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                            <i class="fa-solid fa-star" style="color:#F2F2F2;"></i>
+                        </div>
+                    </div>
+                        </div>
+                        <div class="hotel6 card2">
+                            <img src="" alt="">
+                            <div>
+                             <h3>Auberge la cannebière</h3>
+                             <P>Nuit à partir de <strong>25€</strong></P>
+                                <div class="stars reviews">
+                                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                                    <i class="fa-solid fa-star" style="color:#F2F2F2;"></i>
+                                </div>  
+                            </div>                                                 
+</div>
+</div>
+</section>
 
 
+
+
+
+
+
+<section class="activitesamarseille">
+        <div id="activitesamarseille"></div>
+        <h3>Activités à Marseille</h3>
+
+        
+    </section>
+
+
+
+    </main>
+<footer>
+<div>
+    <ul class="linksfooter" >
+   <li> <h4>A propos</h4></li>
+    <li><a href="#">Fonctionnement du site</a></li>
+    <li><a href="#">Conditions générales de vente</a></li>
+   <li><a href="#">Données et confidentialité</a></li>
+    </ul>
+</div>
+<div>
+    <ul class="linksfooter" >
+  <li>  <h4>Nos hébergements</h4></li>
+   <li> <a href="#">Charte qualité</a></li>
+    <li><a href="#">Soumettre votre hotel</a></li>
+</ul>
+</div>
+<div>
+    <ul class="linksfooter" >
+   <li> <h4>Assistance</h4></li>
+   <li><a href="#">Centre d'aide</a></li>
+   <li> <a href="#">Nous contacter</a></li>
+   </ul>
+</div>
+
+</footer>
 </body>
-</html>
