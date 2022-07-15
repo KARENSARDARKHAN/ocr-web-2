@@ -45,6 +45,10 @@
     display: flex;
 }
 
+.recherche h3{
+    color: red;
+}
+
 .fa-solid fa-location-dot{
     background-color:#F2F2F2 ;
     border-radius:15px 0 15px 0;
@@ -93,6 +97,7 @@
     height: 50px;
     width: 50px;
     justify-content: center;
+}
 
 .lineune{
     display: flex;
@@ -193,6 +198,79 @@ body{
     height:139px;
     border-radius:15px 15px 0px 0px ;
 }
+
+
+.etalement{
+    width: 1350px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.activites{
+    display: flex;
+}
+
+.hotel10{
+    height: 444.51px;
+    width: 302px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+
+.hotel13{
+    height: 444.51px;
+    width: 302px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: blue;
+    margin: 20px;
+}
+
+.hotel11{
+    height: 235.53px;
+    width: 302px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: blue;
+    margin: 20px;
+ }
+
+
+.hotel12{
+    height: 165.10px;
+    width: 302px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: blue;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hotel14{
+    height: 195.12px;
+    width: 302px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+
+.hotel15{
+    height: 208.98px;
+    width: 302px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: blue;
+    margin-top: 44px;
+    margin-left: 20px;
+}
+
+
 
 footer{
     width: 1440px;
