@@ -113,45 +113,23 @@ body{
     justify-content: center;
 }
 
-.lineune{
-    display: flex;
-    justify-content: center;
-}
 
-.linedeux{
-    display: flex;
-    justify-content: center;
-}
-
-.card{
-    background-color:white;
-    width:246px;
-    height: 199px ;
-    margin: 10px;
-    border-radius: 15px 15px 15px 15px;
-}
-
-.card img{
-    width:241px ;
-    height:119px;
-    border-radius:15px 15px 0px 0px ;
-    margin-top: 4px;
-    margin-left: 4px;
-    margin-right: 4px;
-}
 
 .hebergementcontainer{
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: white;
-    margin-bottom: 40px;
     gap: 30px;
+
     
 }
 
 
-.hebergementsamarseille h3{
-   
+.hebergementsamarseille h2{
+    position: relative;
+    top: 20px;
+    left: 30px;
+
 }
 
 .hebergementsamarseille{
@@ -162,9 +140,47 @@ body{
     border-radius:15px 15px 15px 15px ;
     margin-left:20px ;
     padding: 20px;
-    padding-top: 40px;
-    width: 950px;
+    width: 1000px;
+    height: 690px;
     
+}
+
+.lineune{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.linedeux{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card{
+    background-color:white;
+    width:266px;
+    height: 219px ;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.card img{
+    width:261px ;
+    height:139px;
+    border-radius:15px 15px 0px 0px ;
+    margin-top: 6px;
+    margin-left: 6px;
+    margin-right:6px;
+}
+
+
+.hotel6card h2{
+    position: relative;
+    left: 18px;
+    top: 30px;
 }
 
 
@@ -175,10 +191,10 @@ body{
     flex-direction: column ;
     margin-left: 20px;
     padding: 20px;
-    height: 597.57px;
-    width: 420px;
+    height: 670px;
+    width: 470px;
     padding-top: 40px;
-
+    gap: 40px;
 }
 
 .titleandstar{
@@ -187,8 +203,14 @@ body{
     text-align: center;
 }
 
-.etoile{
-    align-self: center
+#Lespluspopulaires{
+    margin-left: -30px;
+}
+
+#blackstar{
+    position: relative;
+    top: 5px;
+    left: 10px;
 }
 
 
@@ -196,8 +218,8 @@ body{
 .linetrois{
     display: flex;
     flex-direction: column ;
-    justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .card2{
@@ -206,8 +228,8 @@ body{
     border-radius:15px 15px 15px 15px;
     margin-bottom:20px;
     display: flex;
-    width: 350px;
-    height: 150px;
+    width: 370px;
+    height: 160px;
 }
 
 .card2 img{
