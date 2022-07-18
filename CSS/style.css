@@ -6,18 +6,14 @@
     font-family: 'Raleway','calibri','Arial',sans-serif;
     color: black;
     text-decoration: none;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style-type: none; 
+    padding: 0.5vmin;
 }
 
 
 
 body{
-    background-color:white;
-    display: flexbox;
-    flex-direction: column;
-    padding-left: 20px;
+display: flexbox;
 }
 
 #logo{
@@ -59,8 +55,40 @@ body{
 }
 
 
-.recherche,.filtres{
-    margin-left:20px ;
+.filtres{
+    display: flex;
+    gap: 0.5vmin;
+}
+
+#roundbox{
+    width: 10vmin;
+    height: 10vmin;
+    border-radius: 50vmin;
+    background-color: #DEEBFF ;
+    color:#0065fc ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#economique{
+    display: flex;
+}
+
+#familial{
+    display: flex;
+}
+
+#romantique{
+    display: flex;
+}
+
+#animauxautorisés{
+    display: flex;
+}
+
+.info{
+    display: flex;
 }
 
 .fa-solid fa-location-dot{
@@ -117,9 +145,7 @@ body{
 
 .hebergementcontainer{
     display: flex;
-    margin-top: 40px;
-    background-color: white;
-    gap: 30px;
+  
 
     
 }
@@ -133,15 +159,16 @@ body{
 }
 
 .hebergementsamarseille{
-    justify-content: space-around;
-    align-items: center;
+    background-color: darkmagenta;
+    width: 65vw;
+    margin-right: 2vw;
+    height: 70vh;
+    border-radius: 2vmax;
+    display: flex;
     flex-wrap: wrap;
-    background-color: #F2F2F2;
-    border-radius:15px 15px 15px 15px ;
-    margin-left:20px ;
-    padding: 20px;
-    width: 1000px;
-    height: 690px;
+    justify-content: center;
+    gap: 1vmax;
+  
     
 }
 
@@ -161,10 +188,9 @@ body{
 
 .card{
     background-color:white;
-    width:266px;
-    height: 219px ;
-    margin: 10px;
-    border-radius: 15px 15px 15px 15px;
+    width: 15vw;
+    height: 13vh;
+    border-radius: 2vmax;
 }
 
 .card img{
@@ -185,16 +211,11 @@ body{
 
 
 .lespluspopulaires{
-    background-color:#F2F2F2 ;
-    border-radius:15px 15px 15px 15px ;
-    display: flex;
-    flex-direction: column ;
-    margin-left: 20px;
-    padding: 20px;
-    height: 670px;
-    width: 470px;
-    padding-top: 40px;
-    gap: 40px;
+    background-color: dimgray;
+    width: 30vw;
+    height: 70vh;
+    border-radius: 2vmax;
+
 }
 
 .titleandstar{
@@ -207,10 +228,9 @@ body{
     margin-left: -30px;
 }
 
-#blackstar{
-    position: relative;
-    top: 5px;
-    left: 10px;
+.etoile{
+    align-self: center
+    margin: right -20px;
 }
 
 
@@ -218,8 +238,9 @@ body{
 .linetrois{
     display: flex;
     flex-direction: column ;
+    justify-content: space-evenly;
     align-items: center;
-    
+    padding-top: 40px;
 }
 
 .card2{
@@ -229,7 +250,7 @@ body{
     margin-bottom:20px;
     display: flex;
     width: 370px;
-    height: 160px;
+    height: 150px;
 }
 
 .card2 img{
@@ -240,20 +261,17 @@ body{
 
 
 .etalement{
-    width: 1280px;
     display: flex;
-    
+    gap: 1Vmax;
+    margin-top: 2vh;
 }
-
-
 
 .activites{
     display: flex;
-    width: 1280px;
-    margin: left 20px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    justify-content: space-evenly;
+    width: 99Vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    justify-content: space-between;
 }
 
 .activitesamarseille h2{
@@ -262,13 +280,11 @@ body{
 }
 
 .hotel10{
-    height: 444.51px;
-    width: 245px;
-    border-radius: 15px 15px 15px 15px;
+    height: 70vh;
+    width: 25vw;
+    border-radius: 1vmax;
     background-color: blue;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-right: 10px;
+   
 }
 
 
@@ -295,12 +311,11 @@ body{
 }
 
 .hotel13{
-    height: 444.51px;
-    width: 245px;
-    border-radius: 15px 15px 15px 15px;
+    height: 70vh;
+    width: 25vw;
+    border-radius: 1vmax;
     background-color: blue;
-    margin-left: 10px;
-    margin-top: 20px;
+
 }
 
 .hotel14{
@@ -337,8 +352,3 @@ footer a{
 
     color: black;
 }
-
-
-
-
-
