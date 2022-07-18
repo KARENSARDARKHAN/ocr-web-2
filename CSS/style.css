@@ -17,15 +17,11 @@ display: flexbox;
 }
 
 #logo{
-    width: 85px;
-    height: 40px;
-    margin-left:20px;
+    width: 7vw;
+    height: 7vh;
 
 }
     
-.recherche h3{
-    margin-top: 30px;
-}
 
 .linksnav{
     
@@ -35,9 +31,7 @@ display: flexbox;
 
 .navbar{
     display: flex;
-    justify-content: right;
-    margin-top: 35px;   
-
+    justify-content: right; 
 }
 
 
@@ -46,8 +40,7 @@ display: flexbox;
 }
 
 #linkactivi{
-    margin-left: 30px;
-    margin-right: 7px;
+    margin-left: 5vw;
 }
 
 #searchform{
@@ -60,32 +53,40 @@ display: flexbox;
     gap: 0.5vmin;
 }
 
-#roundbox{
-    width: 10vmin;
-    height: 10vmin;
-    border-radius: 50vmin;
-    background-color: #DEEBFF ;
+.filtres h4{
+    font-weight: bold;
+}
+
+
+#iconcircle{
+    width: 6vmin;
+    height: 6vmin;
     color:#0065fc ;
-    display:flex;
-    justify-content: center;
+    margin-left: -1vw;
+    background-color: #DEEBFF;
+    border-radius: 10vmin;
+    display: flex;
+    justify-content: center; 
     align-items: center;
 }
 
-#economique{
+#longbox{  
     display: flex;
+    width: 20vw;
+    height: 6vh;
+    border-radius: 5vmin;
+    border-color: #100f0f;
+    color: black;
+    font-weight: bold;
+    border: 0.2vmax solid #F2F2F2;
+    cursor: pointer;
+    align-self: center;
+    margin-right: 2vw;
+    align-items: center;
+    gap: 1vw;
 }
 
-#familial{
-    display: flex;
-}
 
-#romantique{
-    display: flex;
-}
-
-#animauxautorisés{
-    display: flex;
-}
 
 .info{
     display: flex;
@@ -144,25 +145,19 @@ display: flexbox;
 
 
 .hebergementcontainer{
-    display: flex;
-  
-
-    
+    display: flex;  
 }
 
-
 .hebergementsamarseille h2{
-    position: relative;
-    top: 20px;
-    left: 30px;
+   margin-left: 0vw;
 
 }
 
 .hebergementsamarseille{
-    background-color: darkmagenta;
+    background-color: #F2F2F2;
     width: 65vw;
     margin-right: 2vw;
-    height: 70vh;
+    height: 95vh;
     border-radius: 2vmax;
     display: flex;
     flex-wrap: wrap;
@@ -175,31 +170,31 @@ display: flexbox;
 .lineune{
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
-    gap: 30px;
-    margin-top: 40px;
+    margin-bottom: 1vmax;
+    gap: 1vmax;
+    
 }
 
 .linedeux{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 1vmax;
 }
 
 .card{
     background-color:white;
     width: 15vw;
-    height: 13vh;
-    border-radius: 2vmax;
+    height: 30vh;
+    border-radius: 1vmax;
+
 }
 
 .card img{
-    width:261px ;
-    height:139px;
+    width: 14vw;
+    height: 16vh;
     border-radius:15px 15px 0px 0px ;
     margin-top: 6px;
-    margin-left: 6px;
-    margin-right:6px;
+    
 }
 
 
@@ -211,9 +206,9 @@ display: flexbox;
 
 
 .lespluspopulaires{
-    background-color: dimgray;
+    background-color: #F2F2F2;
     width: 30vw;
-    height: 70vh;
+    height: 95vh;
     border-radius: 2vmax;
 
 }
@@ -240,17 +235,16 @@ display: flexbox;
     flex-direction: column ;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 40px;
+    
 }
 
 .card2{
-    width: 250px;
+    width: 25vw;
+    height: 20vh;
     background-color: white;
-    border-radius:15px 15px 15px 15px;
-    margin-bottom:20px;
+    border-radius:1vmax;
     display: flex;
-    width: 370px;
-    height: 150px;
+    margin-bottom: 4vh;
 }
 
 .card2 img{
@@ -275,13 +269,12 @@ display: flexbox;
 }
 
 .activitesamarseille h2{
-    margin-top: 50px;
-    margin-left: 30px;
+   
 }
 
 .hotel10{
     height: 70vh;
-    width: 25vw;
+    width: 22vw;
     border-radius: 1vmax;
     background-color: blue;
    
@@ -291,51 +284,46 @@ display: flexbox;
 
 
 .hotel11{
-    height: 235.53px;
-    width: 245px;
-    border-radius: 15px 15px 15px 15px;
+    height: 38vh;
+    width: 22vw;
+    border-radius: 1vmax;
     background-color: blue;
-    margin: 20px;
-    margin-left: 10px;
+    
  }
 
 
 .hotel12{
-    height: 165.10px;
-    width:245px ;
-    border-radius: 15px 15px 15px 15px;
+    height: 22vh;
+    width:22vw;
+    border-radius: 1vmax;
     background-color: blue;
-    margin-top: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 9vh;
+   
 }
 
 .hotel13{
     height: 70vh;
-    width: 25vw;
+    width: 22vw;
     border-radius: 1vmax;
     background-color: blue;
 
 }
 
 .hotel14{
-    height: 195.12px;
-    width: 245px;
-    border-radius: 15px 15px 15px 15px;
+    height: 30vh;
+    width: 22vw;
+    border-radius: 1vmax;
     background-color: blue;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 10px;
+  
 }
 
 
 .hotel15{
-    height: 208.98px;
-    width: 245px;
-    border-radius: 15px 15px 15px 15px;
+    height: 32vh;
+    width: 22vw;
+    border-radius: 1vmax;
     background-color: blue;
-    margin-top: 44px;
-    margin-left: 10px;
+  margin-top: 7vh;
 }
 
 
@@ -344,11 +332,8 @@ footer{
    
     background-color:#F2F2F2;
     display: flex;
-    justify-content: space-around;
-    align-content: left;
+    justify-content: flex-start;
+    gap: 20vw;
+    
 }
 
-footer a{
-
-    color: black;
-}
