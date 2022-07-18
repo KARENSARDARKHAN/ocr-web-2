@@ -55,12 +55,13 @@ display: flexbox;
 
 .filtres h4{
     font-weight: bold;
+    margin-right: 2vw;
 }
 
 
 #iconcircle{
-    width: 6vmin;
-    height: 6vmin;
+    width: 7vmin;
+    height: 7vmin;
     color:#0065fc ;
     margin-left: -1vw;
     background-color: #DEEBFF;
@@ -68,17 +69,18 @@ display: flexbox;
     display: flex;
     justify-content: center; 
     align-items: center;
+    font-size: 3vmin ;
 }
 
-#longbox{  
+#longbox1{  
     display: flex;
-    width: 20vw;
+    width: 12vw;
     height: 6vh;
     border-radius: 5vmin;
     border-color: #100f0f;
     color: black;
     font-weight: bold;
-    border: 0.2vmax solid #F2F2F2;
+    border: 0.2vmax solid #e6e2e2;
     cursor: pointer;
     align-self: center;
     margin-right: 2vw;
@@ -86,7 +88,53 @@ display: flexbox;
     gap: 1vw;
 }
 
+#longbox2{  
+    display: flex;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 5vmin;
+    border-color: #100f0f;
+    color: black;
+    font-weight: bold;
+    border: 0.2vmax solid #e6e2e2;
+    cursor: pointer;
+    align-self: center;
+    margin-right: 2vw;
+    align-items: center;
+    gap: 1vw;
+}
 
+#longbox3{  
+    display: flex;
+    width: 12vw;
+    height: 6vh;
+    border-radius: 5vmin;
+    border-color: #100f0f;
+    color: black;
+    font-weight: bold;
+    border: 0.2vmax solid #e6e2e2;
+    cursor: pointer;
+    align-self: center;
+    margin-right: 2vw;
+    align-items: center;
+    gap: 1vw;
+}
+
+#longbox4{  
+    display: flex;
+    width: 16vw;
+    height: 6vh;
+    border-radius: 5vmin;
+    border-color: #100f0f;
+    color: black;
+    font-weight: bold;
+    border: 0.2vmax solid #e6e2e2;
+    cursor: pointer;
+    align-self: center;
+    margin-right: 2vw;
+    align-items: center;
+    gap: 1vw;
+}
 
 .info{
     display: flex;
@@ -120,14 +168,6 @@ display: flexbox;
 
 
 .linksnav{
-    display: flex;
-}
-
-.filtres{
-    display: flex;
-}
-
-#economique{
     display: flex;
 }
 
