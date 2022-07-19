@@ -7,7 +7,11 @@
     color: black;
     text-decoration: none;
     list-style-type: none; 
-    padding: 0.5vmin;
+    padding-left: 0.5vmin;
+    padding-right: 0.5vmin;
+    padding-bottom: 0.5vmin;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 
@@ -32,21 +36,34 @@ display: flexbox;
 .navbar{
     display: flex;
     justify-content: right; 
+    margin-top: 3vh;
 }
 
 
-#linkheberg{
-
+#linkheberg :hover{
+padding-top: 1vh;
+border-top: 0.2vmax solid #0065fc;
+color: #0065fc;
+transition: 0.5s;
 }
 
 #linkactivi{
-    margin-left: 5vw;
+margin-left: 4vw;
+}
+
+
+#linkactivi :hover{
+padding-top: 1vh;
+border-top: 0.2vmax solid #0065fc;
+color: #0065fc;
+transition: 0.5s;
 }
 
 
 #searchform{
     display: flex;
     align-items: center;
+    margin-bottom: 3vh;
 }
 
 
@@ -55,7 +72,7 @@ display: flexbox;
     justify-content: center;
     align-items: center;
     background-color: #F2F2F2;
-    border-radius: 15px 0 0 15px;
+    border-radius: 1vmax 0 0 1vmax;
     height: 7vh;
     width: 3vw;
 }
@@ -72,8 +89,10 @@ display: flexbox;
 }
 
 .searchbutton{
-    height: 7.6vh;
+    height: 6.2vh;
+    width: 8vw;
         display: flex;
+        justify-content: center;
         align-items: center;
         background-color: #0065fc;
         color: white;
@@ -92,6 +111,7 @@ display: flexbox;
 .filtres h4{
     font-weight: bold;
     margin-right: 2vw;
+    margin-top: 4vh;
 }
 
 
@@ -174,15 +194,29 @@ display: flexbox;
 
 .info{
     display: flex;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
 }
 
-.fa-solid fa-location-dot{
-    background-color:#F2F2F2 ;
-    border-radius:15px 0 15px 0;
-    text-align: center;
-    width: 18px;
-    height:13px;
+.info p{
+    
 }
+
+#leI{
+    width: 2vmin;
+    height: 2vmin;
+    color:#0065fc ;
+    margin-left: -1vw;
+    border-radius: 10vmin;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 2vmin ;
+    border: 0.2vmax solid #e6e2e2;
+    margin-right: 0.5vw;
+    margin-left: 0.1vw;
+}
+
 
 
 
