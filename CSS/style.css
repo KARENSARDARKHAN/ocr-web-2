@@ -22,14 +22,10 @@ display: flexbox;
 
 #logo{
     width: 14vmin;
-    height: 8vmin;
+    height: 7vmin;
 
 }
     
-
-.linksnav{
-    
-}
 
 
 
@@ -63,7 +59,7 @@ transition: 0.5s;
 #searchform{
     display: flex;
     align-items: center;
-    margin-bottom: 3vh;
+    margin-bottom: 2vh;
 }
 
 
@@ -76,6 +72,8 @@ transition: 0.5s;
     height: 7vh;
     width: 3vw;
 }
+
+
 
 
 #rechercher{
@@ -273,6 +271,7 @@ transition: 0.5s;
     width: 15vw;
     height: 30vh;
     border-radius: 1vmax;
+    box-shadow: 0 0 1vmax grey;
 
 }
 
@@ -332,6 +331,7 @@ transition: 0.5s;
     border-radius:1vmax;
     display: flex;
     margin-bottom: 4vh;
+    box-shadow: 0 0 1vmax grey;
 }
 
 .card2 img{
@@ -355,44 +355,100 @@ transition: 0.5s;
     justify-content: space-between;
 }
 
-.activitesamarseille h2{
-   
+.grandcard{
+    height: 60vh;
+    width: 22vw;
+    border-radius: 1vmax 1vmax 0 0;
+    background-image: url("../images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: -0.2vw;
 }
+
+.grandcard2{
+    height: 60vh;
+    width: 22vw;
+    border-radius: 1vmax 1vmax 0 0;
+    background-image: url("../images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: -0.2vw;
+}
+
+.smallcard1{
+    height: 27vh;
+    width: 22vw;
+    border-radius: 1vmax 1vmax 0 0;
+    background-image: url("../images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: -0.2vw;
+}
+.smallcard2{
+    height: 15vh;
+    width: 22vw;
+    border-radius: 1vmax 1vmax 0 0;
+    background-image: url("../images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: -0.2vw;
+
+}
+.smallcard3{
+    height: 21vh;
+    width: 22vw;
+    border-radius: 1vmax 1vmax 0 0;
+    background-image: url("../images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: -0.2vw;
+
+}
+.smallcard4{
+    height: 22vh;
+    width: 22vw;
+    border-radius: 1vmax 1vmax 0 0;
+    background-image: url("../images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: -0.2vw;
+
+}
+
 
 .hotel10{
-    height: 70vh;
+    height: 69vh;
     width: 22vw;
     border-radius: 1vmax;
-    background-color: blue;
-   
+    background-color:white;
+    box-shadow: 0 0 1vmax grey;
 }
 
-
-
-
 .hotel11{
-    height: 38vh;
+    height: 36Vh;
     width: 22vw;
     border-radius: 1vmax;
-    background-color: blue;
-    
+    background-color:white;
+    box-shadow: 0 0 1vmax grey;
  }
 
 
 .hotel12{
-    height: 22vh;
+    height: 24vh;
     width:22vw;
     border-radius: 1vmax;
-    background-color: blue;
-    margin-top: 9vh;
+    background-color:white;
+    box-shadow: 0 0 1vmax grey;
+    margin-top: 8vh;
    
 }
 
 .hotel13{
-    height: 70vh;
+    height: 69vh;
     width: 22vw;
     border-radius: 1vmax;
-    background-color: blue;
+    background-color:white;
+    box-shadow: 0 0 1vmax grey;
 
 }
 
@@ -400,17 +456,19 @@ transition: 0.5s;
     height: 30vh;
     width: 22vw;
     border-radius: 1vmax;
-    background-color: blue;
+    background-color:white;
+    box-shadow: 0 0 1vmax grey;
   
 }
 
 
 .hotel15{
-    height: 32vh;
+    height: 31vh;
     width: 22vw;
     border-radius: 1vmax;
-    background-color: blue;
-  margin-top: 7vh;
+    background-color:white;
+    box-shadow: 0 0 1vmax grey;
+    margin-top: 7vh;
 }
 
 
