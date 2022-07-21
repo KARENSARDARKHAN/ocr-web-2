@@ -310,6 +310,11 @@ background-color: #0065fc;
     
 }
 
+.contain{
+    object-fit: cover;
+  object-position: center;
+}
+
 .starsreviews0{
         letter-spacing: -0.3vw;
     }
