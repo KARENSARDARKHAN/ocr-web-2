@@ -112,6 +112,27 @@ transition: 0.5s;
     margin-top: 4vh;
 }
 
+#longbox1:hover{
+color:#ffffff ;
+background-color: #0065fc;
+}
+
+#longbox2:hover{
+color:#ffffff ;
+background-color: #0065fc;
+}
+
+#longbox3:hover{
+color:#ffffff ;
+background-color: #0065fc;
+}
+
+
+#longbox4:hover{
+color:#ffffff ;
+background-color: #0065fc;
+}
+
 
 #iconcircle{
     width: 7vmin;
@@ -222,7 +243,6 @@ transition: 0.5s;
     display: flex;
 }
 
-
 .hebergementcontainer{
     display: flex; 
     margin-bottom: 6vh; 
@@ -231,9 +251,7 @@ transition: 0.5s;
 .titlehebergements{
     margin-top: 5vh;
     margin-inline-end: auto;
-    margin-left: 3vw;
-  
-    
+    margin-left: 3vw; 
 }
 
 .hebergementsamarseille{
@@ -278,6 +296,11 @@ transition: 0.5s;
 
 }
 
+.card:hover{
+    transform: scale(1.10);
+    transition: all 1s ease;
+}
+
 .card img{
     width: 16.5vw;
     height: 16vh;
@@ -286,6 +309,11 @@ transition: 0.5s;
     margin-bottom: 2vh;
     
 }
+
+.starsreviews0{
+        letter-spacing: -0.3vw;
+    }
+
 
 
 .hotel6card h2{
@@ -314,12 +342,13 @@ margin-left: -29vw;
 }
 
 #Lespluspopulaires{
-    margin-left: -30px;
+    margin-top: 5vh;
 }
 
 .etoile{
-    align-self: center
-    margin: right -20px;
+    align-self: flex-start;
+    margin-left: 6vw;
+    margin-top: 5vh;
 }
 
 
@@ -329,6 +358,8 @@ margin-left: -29vw;
     flex-direction: column ;
     justify-content: space-evenly;
     align-items: center;
+    gap: 1vh;
+   
     
 }
 
@@ -338,15 +369,39 @@ margin-left: -29vw;
     background-color: white;
     border-radius:1vmax;
     display: flex;
-    margin-bottom: 4vh;
-    line-height: 0.1vmax;
+    margin-bottom: ;
     box-shadow: 0 0 1vmax grey;
+    font-size: 0.9vmax;
+    line-height: 0.1vmax;
+    margin-top: 2vh;
+
+}
+
+.card2:hover{
+    transform: scale(1.10);
+    transition: all 1s ease;
 }
 
 .card2 img{
-    width:24vw ;
-    height:95px;
-    border-radius:15px 15px 0px 0px ;
+    width:8vw ;
+    height:19vh;
+    border-radius:1vmax 0 0 1vmax ;
+    margin-top: 0.7vh;
+    
+}
+
+.textcard2{
+    margin-top: 3vh;
+}
+
+.starsreviews{
+    margin-top: 10vh;
+    letter-spacing: -0.3vw;
+}
+
+.starsreviews2{
+    margin-top: 7vh;
+    letter-spacing: -0.3vw;
 }
 
 
@@ -365,6 +420,11 @@ margin-left: -29vw;
 }
 
 .activitéstitres{
+    margin-left: 1vw;
+}
+
+.activitesamarseille h4{
+    margin-top: 3vh;
     margin-left: 1vw;
 }
 
@@ -389,6 +449,7 @@ margin-left: -29vw;
     margin-left: -0.2vw;
 }
 
+
 .smallcard1{
     height: 27vh;
     width: 21vw;
@@ -409,7 +470,7 @@ margin-left: -29vw;
 
 }
 .smallcard3{
-    height: 21vh;
+    height: 19vh;
     width: 21vw;
     border-radius: 1vmax 1vmax 0 0;
     background-image: url("../images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg");
@@ -438,6 +499,11 @@ margin-left: -29vw;
     box-shadow: 0 0 1vmax grey;
 }
 
+.hotel10:hover{
+    transform: scale(1.10);
+    transition: all 1s ease;
+}
+
 .hotel11{
     height: 35Vh;
     width: 21vw;
@@ -447,6 +513,10 @@ margin-left: -29vw;
     margin-top: -3vh;
  }
 
+ .hotel11:hover{
+    transform: scale(1.10);
+    transition: all 1s ease;
+}
 
 .hotel12{
     height: 24vh;
@@ -457,6 +527,11 @@ margin-left: -29vw;
     margin-top: 6vh;
    
 }
+.hotel12:hover{
+    transform: scale(1.10);
+    transition: all 1s ease;
+}
+
 
 .hotel13{
     height: 69vh;
@@ -465,6 +540,11 @@ margin-left: -29vw;
     background-color:white;
     box-shadow: 0 0 1vmax grey;
 
+}
+
+.hotel13:hover{
+    transform: scale(1.10);
+    transition: all 1s ease;
 }
 
 .hotel14{
@@ -477,6 +557,10 @@ margin-left: -29vw;
   
 }
 
+.hotel14:hover{
+    transform: scale(1.10);
+    transition: all 1s ease;
+}
 
 .hotel15{
     height: 31vh;
@@ -487,7 +571,10 @@ margin-left: -29vw;
     margin-top: 6vh;
 }
 
-
+.hotel15:hover{
+    transform: scale(1.10);
+    transition: all 1s ease;
+}
 
 footer{
    
@@ -497,6 +584,10 @@ footer{
     gap: 20vw;
     margin-top: 6vh;
     padding-top: 7vh;
+    line-height: 5vh;
+    font-size: 1.1vmax;
+    color: black;
+
     
 }
 
