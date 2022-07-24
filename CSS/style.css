@@ -1,65 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,300;1,700&display=swap");
 
-
-
 *{
-    font-family: 'Raleway','calibri','Arial',sans-serif;
-    color: black;
-    text-decoration: none;
-    list-style-type: none; 
-    padding-left: 0.5vmin;
-    padding-right: 0.5vmin;
-    padding-bottom: 0.5vmin;
-    padding-top: 0;
-    margin-top: 0;
+  color: #100f0f;
+  text-decoration: none;
+  list-style-type: none; 
 }
-
-
 
 body{
-display: flexbox;
+font-family: 'Raleway','calibri','Arial',sans-serif;
+padding-left: 30px;
 }
+
+
+
+
 
 #logo{
-    width: 14vmin;
-    height: 7vmin;
-
+    width: 90px;
+    height: 40px;
+    padding-top: 50px;
 }
+
     
-
-
-
 .navbar{
     display: flex;
-    justify-content: right; 
-    margin-top: 3vh;
+    flex-wrap: wrap;
+    gap: 800px;
+  }
+
+.linksnav{
+    display: flex;
+    gap: 70px;
+    padding-top: 30px;
 }
 
-
-#linkheberg :hover{
-padding-top: 1vh;
-border-top: 0.2vmax solid #0065fc;
-color: #0065fc;
-transition: 0.5s;
+.menu-item{
+padding-top: 43px;
+color: black;
 }
 
-#linkactivi{
-margin-left: 4vw;
-}
-
-
-#linkactivi :hover{
-padding-top: 1vh;
-border-top: 0.2vmax solid #0065fc;
-color: #0065fc;
-transition: 0.5s;
+.menu-item:hover{
+border-top:3px solid #0065fc;
 }
 
 
 #searchform{
     display: flex;
     align-items: center;
-    margin-bottom: 2vh;
+    margin-bottom: 15px;
 }
 
 
@@ -68,27 +56,27 @@ transition: 0.5s;
     justify-content: center;
     align-items: center;
     background-color: #F2F2F2;
-    border-radius: 1vmax 0 0 1vmax;
-    height: 7vh;
-    width: 3vw;
+    border-radius: 15px 0 0 15px;
+    height: 45px;
+    width: 45px;
 }
 
 
 
 
 #rechercher{
-    height: 7.6vh;
-    width: 15vw;
+    height: 45px;
+    width: 150px;
     color: black;
     font-weight: bold;
     border-color: #F2F2F2;
-    border-width: 0.1vmax;
+    border-width: 2px;
     border-style: solid;
 }
 
 .searchbutton{
-    height: 6.2vh;
-    width: 8vw;
+    height: 45px;
+    width: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -98,18 +86,14 @@ transition: 0.5s;
         border-radius: 0 15px 15px 0;
     }
 
-
-
-
 .filtres{
     display: flex;
-    gap: 0.5vmin;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .filtres h4{
     font-weight: bold;
-    margin-right: 2vw;
-    margin-top: 4vh;
 }
 
 #longbox1:hover{
@@ -135,209 +119,175 @@ background-color: #0065fc;
 
 
 #iconcircle{
-    width: 7vmin;
-    height: 7vmin;
+    width: 45px;
+    height: 40px;
     color:#0065fc ;
-    margin-left: -1vw;
+    margin-left: -3px;
     background-color: #DEEBFF;
-    border-radius: 10vmin;
+    border-radius: 50px;
     display: flex;
     justify-content: center; 
     align-items: center;
-    font-size: 3vmin ;
+    font-size: 15px ;
 }
 
 #longbox1{  
     display: flex;
-    width: 12vw;
-    height: 6vh;
-    border-radius: 5vmin;
+    width: 170px;
+    height: 38px;
+    border-radius: 35px;
     border-color: #100f0f;
     color: black;
     font-weight: bold;
-    border: 0.2vmax solid #e6e2e2;
+    border: 2px solid #e6e2e2;
     cursor: pointer;
     align-self: center;
-    margin-right: 2vw;
+    margin-right: 15px;
     align-items: center;
-    gap: 1vw;
+    gap: 10px;
 }
 
 #longbox2{  
     display: flex;
-    width: 10vw;
-    height: 6vh;
-    border-radius: 5vmin;
+    width: 140px;
+    height: 38px;
+    border-radius: 35px;
     border-color: #100f0f;
     color: black;
     font-weight: bold;
-    border: 0.2vmax solid #e6e2e2;
+    border: 2px solid #e6e2e2;
     cursor: pointer;
     align-self: center;
-    margin-right: 2vw;
+    margin-right: 15px;
     align-items: center;
-    gap: 1vw;
+    gap: 10px;
 }
 
 #longbox3{  
     display: flex;
-    width: 12vw;
-    height: 6vh;
-    border-radius: 5vmin;
+    width: 170px;
+    height: 38px;
+    border-radius: 35px;
     border-color: #100f0f;
     color: black;
     font-weight: bold;
-    border: 0.2vmax solid #e6e2e2;
+    border: 2px solid #e6e2e2;
     cursor: pointer;
     align-self: center;
-    margin-right: 2vw;
+    margin-right: 15px;
     align-items: center;
-    gap: 1vw;
+    gap: 10px;
+    
 }
 
 #longbox4{  
     display: flex;
-    width: 16vw;
-    height: 6vh;
-    border-radius: 5vmin;
+    width: 215px;
+    height: 38px;
+    border-radius: 35px;
     border-color: #100f0f;
     color: black;
     font-weight: bold;
-    border: 0.2vmax solid #e6e2e2;
+    border: 2px solid #e6e2e2;
     cursor: pointer;
     align-self: center;
-    margin-right: 2vw;
+    margin-right: 15px;
     align-items: center;
-    gap: 1vw;
+    gap: 10px;
 }
 
 .info{
     display: flex;
-    margin-bottom: 3vh;
-    margin-top: 3vh;
+    margin-bottom: 40px;
+    margin-top: 20px
 }
 
-.info p{
-    
-}
 
 #leI{
-    width: 2vmin;
-    height: 2vmin;
+    width: 15px;
+    height: 15px;
     color:#0065fc ;
-    margin-left: -1vw;
-    border-radius: 10vmin;
+    border-radius: 50px;
     display: flex;
     justify-content: center; 
     align-items: center;
-    font-size: 2vmin ;
-    border: 0.2vmax solid #e6e2e2;
-    margin-right: 0.5vw;
-    margin-left: 0.1vw;
-}
-
-
-
-
-.linksnav{
-    display: flex;
+    font-size: 13px;
+    border: 2px solid #e6e2e2;
+    margin-right: 15px;
 }
 
 .hebergementcontainer{
-    display: flex; 
-    margin-bottom: 6vh; 
-}
-
-.titlehebergements{
-    margin-top: 5vh;
-    margin-inline-end: auto;
-    margin-left: 3vw; 
+display: flex;
+flex-wrap: wrap;
+gap: 40px;
 }
 
 .hebergementsamarseille{
     background-color: #F2F2F2;
-    width: 65vw;
-    margin-right: 2vw;
-    height: 97vh;
-    border-radius: 2vmax;
+    width: 750px;
+    height: 626px;
+    border-radius: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1vmax;
-  
+    align-items: center;
+    gap: 30px;
     
 }
 
-.lineune{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1vmax;
-    gap: 2vmax;
-    margin-left: 1vw;
-    
-}
-
-.linedeux{
-    display: flex;
-    justify-content: center;
-    gap: 2vmax;
-    margin-left: 2vw;
+.hebergementstitle{
+   width: 100%;
+   padding-left: 55px;
 }
 
 .card{
     background-color:white;
-    width: 17vw;
-    height: 29vh;
-    border-radius: 1vmax;
-    box-shadow: 0 0 1vmax grey;
-    font-size: 0.9vmax;
-    line-height: 0.1vmax;
-    letter-spacing:-0vw;
-
+    width: 196px;
+    height: 179px;
+    padding-left: 5px;
+    padding-right: 1px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px grey;
+    font-size: 12px;
+    line-height: 2px;
 }
-
 .card:hover{
     transform: scale(1.10);
     transition: all 1s ease;
 }
 
 .card img{
-    width: 16.5vw;
-    height: 16vh;
+    width: 192px;
+    height: 109px;
     border-radius:15px 15px 0px 0px ;
     margin-top: 6px;
-    margin-bottom: 2vh;
-    
+    margin-bottom: 5px;
 }
 
 .contain{
-    object-fit: cover;
+  object-fit: cover;
   object-position: center;
 }
 
 .starsreviews0{
-        letter-spacing: -0.3vw;
+   letter-spacing: -2px;
+   margin-left: 5px;
     }
 
-
-
-.hotel6card h2{
-    position: relative;
-    left: 18px;
-    top: 30px;
+.hebergementsamarseille h3{
+    margin-top: 8px;
+    margin-left: 5px;
 }
 
-.affichezplus{
-margin-left: -29vw;
+.hebergementsamarseille p{
+    margin-left: 5px;
 }
-
 
 .lespluspopulaires{
     background-color: #F2F2F2;
-    width: 30vw;
-    height: 97vh;
-    border-radius: 2vmax;
-
+    width: 420px;
+    height: 626px;
+    border-radius: 15px;
 }
 
 .titleandstar{
@@ -347,13 +297,13 @@ margin-left: -29vw;
 }
 
 #Lespluspopulaires{
-    margin-top: 5vh;
+    margin-top: 30px;
 }
 
 .etoile{
     align-self: flex-start;
-    margin-left: 6vw;
-    margin-top: 5vh;
+    margin-left: 20px;
+    margin-top: 30PX;
 }
 
 
@@ -363,145 +313,136 @@ margin-left: -29vw;
     flex-direction: column ;
     justify-content: space-evenly;
     align-items: center;
-    gap: 1vh;
+    gap: 5px;
    
     
 }
 
 .card2{
-    width: 25vw;
-    height: 20vh;
+    width: 333px;
+    height: 140px;
     background-color: white;
-    border-radius:1vmax;
+    border-radius:15px;
     display: flex;
-    margin-bottom: ;
-    box-shadow: 0 0 1vmax grey;
-    font-size: 0.9vmax;
-    line-height: 0.1vmax;
-    margin-top: 2vh;
+    box-shadow: 0 0 20px grey;
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 2px;
 
 }
 
 .card2:hover{
     transform: scale(1.10);
     transition: all 1s ease;
+    background-color: #DEEBFF;
 }
 
 .card2 img{
-    width:8vw ;
-    height:19vh;
-    border-radius:1vmax 0 0 1vmax ;
-    margin-top: 0.7vh;
+    width:122px;
+    height:130px;
+    border-radius: 15px 0 0 15px ;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
     
 }
 
 .textcard2{
-    margin-top: 3vh;
+    margin-top: 10px;
+    margin-left: 15px;
 }
 
 .starsreviews{
-    margin-top: 10vh;
-    letter-spacing: -0.3vw;
+    margin-top: 60px;
+    letter-spacing: -2px;
 }
-
+        
 .starsreviews2{
-    margin-top: 7vh;
-    letter-spacing: -0.3vw;
-}
-
-
-.etalement{
-    display: flex;
-    gap: 1Vmax;
-    margin-top: 2vh;
+    margin-top: 73px;
 }
 
 .activites{
     display: flex;
-    width: 99Vw;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
+    flex-wrap: wrap;
+    width: 1198px;
+    margin-bottom: 30px;
+    margin-top: 60px;
     justify-content: space-between;
+
 }
 
+
 .activitéstitres{
-    margin-left: 1vw;
+    margin-bottom: -40px;
+    margin-top: 50px;
+  
 }
 
 .activitesamarseille h4{
-    margin-top: 3vh;
-    margin-left: 1vw;
+    margin-top: 15px;
+    margin-left: 15px
 }
 
 
 .grandcard{
-    height: 60vh;
-    width: 21vw;
-    border-radius: 1vmax 1vmax 0 0;
+    height: 350px;
+    width: 271px;
+    border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    margin-left: -0.2vw;
 }
 
 .grandcard2{
-    height: 60vh;
-    width: 21vw;
-    border-radius: 1vmax 1vmax 0 0;
+    height: 350px;
+    width: 271px;
+    border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    margin-left: -0.2vw;
 }
 
 
 .smallcard1{
-    height: 27vh;
-    width: 21vw;
-    border-radius: 1vmax 1vmax 0 0;
+    height: 150px;
+    width: 271px;
+    border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    margin-left: -0.2vw;
 }
 .smallcard2{
-    height: 15vh;
-    width: 21vw;
-    border-radius: 1vmax 1vmax 0 0;
+    height: 95px;
+    width: 271px;
+    border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    margin-left: -0.2vw;
-
 }
 .smallcard3{
-    height: 19vh;
-    width: 21vw;
-    border-radius: 1vmax 1vmax 0 0;
+    height: 110px;
+    width: 271px;
+    border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    margin-left: -0.2vw;
-
 }
 .smallcard4{
-    height: 22vh;
-    width: 21vw;
-    border-radius: 1vmax 1vmax 0 0;
+    height: 128px;
+    width: 271px;
+    border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    margin-left: -0.2vw;
-
 }
 
 
 .hotel10{
-    height: 69vh;
-    width: 21vw;
-    border-radius: 1vmax;
+    height: 400px;
+    width: 268px;
+    border-radius: 15px;
     background-color:white;
-    box-shadow: 0 0 1vmax grey;
+    box-shadow: 0 0 20px grey;
 }
 
 .hotel10:hover{
@@ -510,12 +451,12 @@ margin-left: -29vw;
 }
 
 .hotel11{
-    height: 35Vh;
-    width: 21vw;
-    border-radius: 1vmax;
+    height: 200px;
+    width: 268px;
+    border-radius: 15px;
     background-color:white;
-    box-shadow: 0 0 1vmax grey;
-    margin-top: -3vh;
+    box-shadow: 0 0 20px grey;
+
  }
 
  .hotel11:hover{
@@ -524,12 +465,12 @@ margin-left: -29vw;
 }
 
 .hotel12{
-    height: 24vh;
-    width:21vw;
-    border-radius: 1vmax;
+    height: 145px;
+    width:268px;
+    border-radius: 15px;
     background-color:white;
-    box-shadow: 0 0 1vmax grey;
-    margin-top: 6vh;
+    box-shadow: 0 0 20px grey;
+    margin-top: 55px;
    
 }
 .hotel12:hover{
@@ -539,12 +480,11 @@ margin-left: -29vw;
 
 
 .hotel13{
-    height: 69vh;
-    width: 21vw;
-    border-radius: 1vmax;
+    height: 400px;
+    width: 268px;
+    border-radius: 15px;
     background-color:white;
-    box-shadow: 0 0 1vmax grey;
-
+    box-shadow: 0 0 20px grey;
 }
 
 .hotel13:hover{
@@ -553,13 +493,11 @@ margin-left: -29vw;
 }
 
 .hotel14{
-    height: 28vh;
-    width: 21vw;
-    border-radius: 1vmax;
+    height: 160px;
+    width: 268px;
+    border-radius: 15px;
     background-color:white;
-    box-shadow: 0 0 1vmax grey;
-    margin-top: -3vh;
-  
+    box-shadow: 0 0 20px grey;
 }
 
 .hotel14:hover{
@@ -568,12 +506,12 @@ margin-left: -29vw;
 }
 
 .hotel15{
-    height: 31vh;
-    width: 21vw;
-    border-radius: 1vmax;
+    height: 180px;
+    width: 268px;
+    border-radius: 15px;
     background-color:white;
-    box-shadow: 0 0 1vmax grey;
-    margin-top: 6vh;
+    box-shadow: 0 0 20px grey;
+    margin-top: 60px;
 }
 
 .hotel15:hover{
@@ -581,18 +519,31 @@ margin-left: -29vw;
     transition: all 1s ease;
 }
 
+
 footer{
    
     background-color:#F2F2F2;
     display: flex;
-    justify-content: flex-start;
-    gap: 20vw;
-    margin-top: 6vh;
-    padding-top: 7vh;
-    line-height: 5vh;
-    font-size: 1.1vmax;
-    color: black;
-
-    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-top: 20px;
+    line-height: 30px;
+    font-size: 15px;
+    margin-left: -30px;
+    width: 1280px;
 }
+
+.footerassistance{
+   margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+
 
