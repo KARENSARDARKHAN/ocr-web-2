@@ -11,16 +11,11 @@ font-family: 'Raleway','calibri','Arial',sans-serif;
 padding-left: 30px;
 }
 
-
-
-
-
 #logo{
     width: 90px;
     height: 40px;
     padding-top: 50px;
 }
-
     
 .navbar{
     display: flex;
@@ -220,28 +215,66 @@ background-color: #0065fc;
 .hebergementcontainer{
 display: flex;
 flex-wrap: wrap;
-gap: 40px;
+gap: 50px;
 }
 
 .hebergementsamarseille{
     background-color: #F2F2F2;
     width: 750px;
-    height: 626px;
+    height: 590px;
     border-radius: 15px; 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     gap: 30px;
-    padding-top: 10px;
-}
+    
 
+}
 
 .hebergementstitle{
-   width: 100%;
-   padding-left: 45px;
-   margin-top: -120px;
+   padding-left: 42px;
+   padding-top: 12px;
 }
+
+.groupofhotels1{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    margin-left: 42px;
+    margin-top: 25px;
+}
+
+.groupofhotels1 h3 {
+    padding-left: 6px;  
+}
+
+.groupofhotels2 h3 {
+    padding-left: 6px;  
+}
+
+.groupofhotels1 p {
+    padding-left: 6px;  
+}
+
+.groupofhotels2 P {
+    padding-left: 6px;  
+}
+
+.starsreviews0{
+padding-left: 2px;
+}
+
+
+.groupofhotels2{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+    margin-left: 42px;
+}
+
+.afficherplus{
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 42px;
+}
+
 
 .card{
     background-color:white;
@@ -253,7 +286,7 @@ gap: 40px;
     box-shadow: 0 0 20px grey;
     font-size: 12px;
     line-height: 2px;
-    margin-top: -300px;
+    
 }
 .card:hover{
     transform: scale(1.10);
@@ -266,7 +299,7 @@ gap: 40px;
     height: 109px;
     border-radius:15px 15px 0px 0px ;
     margin-top: 6px;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
 }
 
 .contain{
@@ -279,19 +312,15 @@ gap: 40px;
    margin-left: 5px;
     }
 
-.hebergementsamarseille h3{
-    margin-top: 8px;
-    margin-left: 5px;
-}
-
-.hebergementsamarseille p{
-    margin-left: 5px;
+.afficherplus{
+    font-weight: bold;
+    font-size: 17px;
 }
 
 .lespluspopulaires{
     background-color: #F2F2F2;
-    width: 420px;
-    height: 626px;
+    width: 405px;
+    height: 590px;
     border-radius: 15px;
 }
 
@@ -318,14 +347,13 @@ gap: 40px;
     flex-direction: column ;
     justify-content: space-evenly;
     align-items: center;
-    gap: 5px;
     margin-top: -20px;
    
     
 }
 
 .card2{
-    width: 333px;
+    width: 310px;
     height: 140px;
     background-color: white;
     border-radius:15px;
@@ -365,16 +393,16 @@ gap: 40px;
         
 .starsreviews2{
     margin-top: 73px;
+    letter-spacing: -2px;
 }
 
 .activites{
     display: flex;
     flex-wrap: wrap;
-    width: 1198px;
+    width: 1205px;
     margin-bottom: 30px;
     margin-top: 60px;
     justify-content: space-between;
-
 }
 
 
@@ -537,7 +565,7 @@ footer{
     line-height: 30px;
     font-size: 15px;
     margin-left: -30px;
-    width: 1280px;
+    width: 1263px;
 }
 
 .footerassistance{
