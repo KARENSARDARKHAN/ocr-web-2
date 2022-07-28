@@ -238,7 +238,6 @@ body {
     border-radius: 15px;
     gap: 5px;
 
-
 }
 
 .hebergementstitle {
@@ -417,7 +416,7 @@ body {
     letter-spacing: -2px;
 }
 
-.activites {
+.activites{
     display: flex;
     flex-wrap: wrap;
     width: 1205px;
@@ -427,19 +426,19 @@ body {
 }
 
 
-.activitéstitres {
+.activitéstitres{
     margin-bottom: -40px;
     margin-top: 50px;
-
+  
 }
 
-.activitesamarseille h4 {
+.activitesamarseille h4{
     margin-top: 15px;
     margin-left: 15px
 }
 
 
-.grandcard {
+.grandcard{
     height: 350px;
     width: 271px;
     border-radius: 15px 15px 0 0;
@@ -448,7 +447,7 @@ body {
     background-position: center;
 }
 
-.grandcard2 {
+.grandcard2{
     height: 350px;
     width: 271px;
     border-radius: 15px 15px 0 0;
@@ -457,7 +456,8 @@ body {
     background-position: center;
 }
 
-.smallcard1 {
+
+.smallcard1{
     height: 150px;
     width: 271px;
     border-radius: 15px 15px 0 0;
@@ -465,8 +465,7 @@ body {
     background-size: cover;
     background-position: center;
 }
-
-.smallcard2 {
+.smallcard2{
     height: 95px;
     width: 271px;
     border-radius: 15px 15px 0 0;
@@ -474,8 +473,7 @@ body {
     background-size: cover;
     background-position: center;
 }
-
-.smallcard3 {
+.smallcard3{
     height: 110px;
     width: 271px;
     border-radius: 15px 15px 0 0;
@@ -483,8 +481,7 @@ body {
     background-size: cover;
     background-position: center;
 }
-
-.smallcard4 {
+.smallcard4{
     height: 128px;
     width: 271px;
     border-radius: 15px 15px 0 0;
@@ -494,93 +491,92 @@ body {
 }
 
 
-.hotel10 {
+.hotel10{
     height: 400px;
     width: 268px;
     border-radius: 15px;
-    background-color: white;
+    background-color:white;
     box-shadow: 0 0 20px grey;
 }
 
-.hotel10:hover {
+.hotel10:hover{
     transform: scale(1.10);
     transition: all 1s ease;
 }
 
-.hotel11 {
+.hotel11{
     height: 200px;
     width: 268px;
     border-radius: 15px;
-    background-color: white;
+    background-color:white;
     box-shadow: 0 0 20px grey;
 
-}
+ }
 
-.hotel11:hover {
+ .hotel11:hover{
     transform: scale(1.10);
     transition: all 1s ease;
 }
 
-.hotel12 {
+.hotel12{
     height: 145px;
-    width: 268px;
+    width:268px;
     border-radius: 15px;
-    background-color: white;
+    background-color:white;
     box-shadow: 0 0 20px grey;
     margin-top: 55px;
-
+   
 }
-
-.hotel12:hover {
+.hotel12:hover{
     transform: scale(1.10);
     transition: all 1s ease;
 }
 
 
-.hotel13 {
+.hotel13{
     height: 400px;
     width: 268px;
     border-radius: 15px;
-    background-color: white;
+    background-color:white;
     box-shadow: 0 0 20px grey;
 }
 
-.hotel13:hover {
+.hotel13:hover{
     transform: scale(1.10);
     transition: all 1s ease;
 }
 
-.hotel14 {
+.hotel14{
     height: 160px;
     width: 268px;
     border-radius: 15px;
-    background-color: white;
+    background-color:white;
     box-shadow: 0 0 20px grey;
 }
 
-.hotel14:hover {
+.hotel14:hover{
     transform: scale(1.10);
     transition: all 1s ease;
 }
 
-.hotel15 {
+.hotel15{
     height: 180px;
     width: 268px;
     border-radius: 15px;
-    background-color: white;
+    background-color:white;
     box-shadow: 0 0 20px grey;
     margin-top: 60px;
 }
 
-.hotel15:hover {
+.hotel15:hover{
     transform: scale(1.10);
     transition: all 1s ease;
 }
 
 
-footer {
-
-    background-color: #F2F2F2;
+footer{
+   
+    background-color:#F2F2F2;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -592,9 +588,10 @@ footer {
     width: 1263px;
 }
 
-.footerassistance {
-    margin-right: 50px;
+.footerassistance{
+   margin-right: 50px;
 }
+
 
 
 
@@ -624,13 +621,6 @@ footer {
 
 
 @media (max-width:992px) {
-
-    body{
-        margin: 0px;
-        padding: 10px;
-        
-    }
-
 
 
     .navbar {
@@ -694,7 +684,7 @@ footer {
     .hebergementsamarseille {
         background: none;
         height: 1400px;
-        width: 100vw;
+        width: 95%;
         padding: 0px;
         margin: -30px;
         
@@ -708,6 +698,7 @@ footer {
 
     .lespluspopulaires{
         border-radius: 0px;
+        width: 95%;
     }
 
 
@@ -733,7 +724,7 @@ footer {
     .activites {
         flex-direction: column;
         gap: 10px;
-        width: 100vw;
+        width: 95%;
         
     }
 
