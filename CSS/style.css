@@ -227,16 +227,13 @@ body {
 
 .hebergementcontainer {
     display: flex;
-    flex-wrap: wrap;
     gap: 50px;
 }
 
 .hebergementsamarseille {
     background-color: #F2F2F2;
-    width: 750px;
-    height: 590px;
     border-radius: 15px;
-    gap: 5px;
+
 
 }
 
@@ -614,14 +611,18 @@ footer{
 
 
 @media (min-width:993px) {
+   
     #laloupe {
         display: none;
     }
 }
 
 
-@media (max-width:992px) {
-
+@media  (max-width:992px) {
+    
+    .searchbutton{
+        display: none;
+    }
 
     .navbar {
         flex-direction: column;
@@ -630,17 +631,16 @@ footer{
     #logo{
         max-width:  150px;
         height: 60px;
-        margin-left: 170px;
+        margin-left: 120px;
         width: 100vw;
     }
 
     .linksnav{
-        justify-content: center;
-        gap: 150px;
+        justify-content: space-between;
         margin-left: -100px;
         border-bottom:4px solid #F2F2F2;
         padding-bottom: 20px;
-        width: 100vw;
+        width: 120%;
     }
 
     .menu-item {
