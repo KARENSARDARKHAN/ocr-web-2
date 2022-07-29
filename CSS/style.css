@@ -8,7 +8,6 @@
 
 body {
     font-family: 'Raleway', 'calibri', 'Arial', sans-serif;
-    padding-left: 30px;
     box-sizing: border-box;
 }
 
@@ -21,18 +20,15 @@ body {
 .navbar {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .linksnav {
     display: flex;
-    gap: 70px;
     padding-top: 30px;
-    margin-right: 40px;
 }
 
 .menu-item {
-    padding-top: 43px;
     color: black;
 }
 
@@ -227,13 +223,12 @@ body {
 
 .hebergementcontainer {
     display: flex;
-    gap: 50px;
+    gap: 80px;
 }
 
 .hebergementsamarseille {
     background-color: #F2F2F2;
     border-radius: 15px;
-
 
 }
 
@@ -245,10 +240,8 @@ body {
 .groupofhotels {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
-    margin-bottom: 30px;
-    margin-left: 42px;
-    margin-top: 25px;
 }
 
 .groupofhotels1 h3 {
@@ -282,8 +275,7 @@ body {
 .afficherplus {
     font-weight: bold;
     font-size: 15px;
-    padding-left: 42px;
-    margin-top: 50px;
+    margin-left: 80px;
 }
 
 
@@ -329,15 +321,9 @@ body {
     margin-left: 5px;
 }
 
-.afficherplus {
-    font-weight: bold;
-    font-size: 17px;
-}
 
 .lespluspopulaires {
     background-color: #F2F2F2;
-    width: 405px;
-    height: 590px;
     border-radius: 15px;
 }
 
@@ -364,14 +350,11 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: -20px;
-
-
 }
 
 .card2 {
     width: 310px;
-    height: 140px;
+    height: 120px;
     background-color: white;
     border-radius: 15px;
     display: flex;
@@ -390,7 +373,7 @@ body {
 
 .card2 img {
     width: 122px;
-    height: 130px;
+    height: 110px;
     border-radius: 15px 0 0 15px;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -416,7 +399,7 @@ body {
 .activites{
     display: flex;
     flex-wrap: wrap;
-    width: 1205px;
+
     margin-bottom: 30px;
     margin-top: 60px;
     justify-content: space-between;
@@ -424,7 +407,7 @@ body {
 
 
 .activitéstitres{
-    margin-bottom: -40px;
+
     margin-top: 50px;
   
 }
@@ -581,12 +564,12 @@ footer{
     padding-top: 20px;
     line-height: 30px;
     font-size: 15px;
-    margin-left: -30px;
-    width: 1263px;
+    
+    
 }
 
 .footerassistance{
-   margin-right: 50px;
+  
 }
 
 
@@ -636,18 +619,22 @@ footer{
     }
 
     .linksnav{
-        justify-content: space-between;
-        margin-left: -100px;
+        justify-content: space-evenly;
         border-bottom:4px solid #F2F2F2;
         padding-bottom: 20px;
-        width: 120%;
+    }
+
+
+    .linksnav li {
+        width: 50%;
     }
 
     .menu-item {
         border-top: none;
+        display: block;
+        width: 100%;
         margin: 0;
         padding: 0;
-        width: 50%;
         text-align: center;
         font-size: 20px;
     }
@@ -698,9 +685,11 @@ footer{
 
     .lespluspopulaires{
         border-radius: 0px;
-        width: 95%;
+        width: 100%;
     }
+.linetrois{
 
+}
 
     
     .afficherplus {
