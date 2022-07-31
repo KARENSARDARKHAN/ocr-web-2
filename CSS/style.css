@@ -11,21 +11,28 @@ body {
     box-sizing: border-box;
 }
 
+body :not(footer){
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 #logo {
     width: 90px;
     height: 40px;
     padding-top: 50px;
+    
 }
 
 .navbar {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .linksnav {
     display: flex;
     padding-top: 30px;
+    gap: 80px;
 }
 
 .menu-item {
@@ -34,12 +41,16 @@ body {
 
 .menu-item:hover {
     border-top: 3px solid #0065fc;
+    padding-top: 43px;
+}
+
+.recherche h3, P {
+    margin-left:-8px;
 }
 
 
 #searchform {
     display: flex;
-    align-items: center;
     margin-bottom: 15px;
 }
 
@@ -51,7 +62,8 @@ body {
     background-color: #F2F2F2;
     border-radius: 15px 0 0 15px;
     height: 45px;
-    width: 45px;
+    width: 30px;
+    margin-left: -20px;
 }
 
 
@@ -59,12 +71,13 @@ body {
 
 #rechercher {
     height: 45px;
-    width: 150px;
+    width: 170px;
     color: black;
     font-weight: bold;
     border-color: #F2F2F2;
     border-width: 2px;
     border-style: solid;
+    margin-left: -20px;
 }
 
 .searchbutton {
@@ -95,6 +108,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    margin-left: -20px;
 }
 
 .filtres h4 {
@@ -124,10 +138,10 @@ body {
 
 
 #iconcircle {
-    width: 45px;
-    height: 40px;
+    width: 27px;
+    height: 44px;
     color: #0065fc;
-    margin-left: -3px;
+    margin-left: -15px;
     background-color: #DEEBFF;
     border-radius: 50px;
     display: flex;
@@ -209,8 +223,8 @@ body {
 
 
 #leI {
-    width: 15px;
-    height: 15px;
+    width: 3px;
+    height:20px;
     color: #0065fc;
     border-radius: 50px;
     display: flex;
@@ -218,12 +232,13 @@ body {
     align-items: center;
     font-size: 13px;
     border: 2px solid #e6e2e2;
-    margin-right: 15px;
+    margin-right: 5px;
+    margin-left: -10px;
 }
 
 .hebergementcontainer {
     display: flex;
-    gap: 80px;
+    gap: 28px;
 }
 
 .hebergementsamarseille {
@@ -233,7 +248,7 @@ body {
 }
 
 .hebergementstitle {
-    padding-left: 42px;
+    padding-left: 65px;
     padding-top: 12px;
 }
 
@@ -275,7 +290,7 @@ body {
 .afficherplus {
     font-weight: bold;
     font-size: 15px;
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 
@@ -302,8 +317,9 @@ body {
     width: 192px;
     height: 109px;
     border-radius: 15px 15px 0px 0px;
-    margin-top: 6px;
+    margin-top: 4px;
     margin-bottom: 1px;
+    margin-left: -20px;
 }
 
 .contain {
@@ -317,8 +333,7 @@ body {
 }
 
 .starsreviews0 {
-    letter-spacing: -2px;
-    margin-left: 5px;
+    letter-spacing: -500px;  
 }
 
 
@@ -329,8 +344,8 @@ body {
 
 .titleandstar {
     display: flex;
-    justify-content: space-around;
-    text-align: center;
+    justify-content: space-between;
+   
 }
 
 #Lespluspopulaires {
@@ -339,8 +354,8 @@ body {
 
 .etoile {
     align-self: flex-start;
-    margin-left: 20px;
-    margin-top: 30PX;
+    margin-left: 70px;
+    margin-top: 30px;
 }
 
 
@@ -348,8 +363,7 @@ body {
 .linetrois {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    margin-top: -27px;
 }
 
 .card2 {
@@ -372,37 +386,42 @@ body {
 }
 
 .card2 img {
-    width: 122px;
+    width: 110px;
     height: 110px;
     border-radius: 15px 0 0 15px;
     margin-bottom: 5px;
     margin-top: 5px;
-    margin-left: 5px;
+    margin-left: -14px;
 
 }
 
 .textcard2 {
-    margin-top: 10px;
-    margin-left: 15px;
+    margin-top: 5px;
+    margin-left: -5px;
+}
+
+.textcard2 h3, p{
+margin-left: -10px;
 }
 
 .starsreviews {
-    margin-top: 60px;
-    letter-spacing: -2px;
+    margin-top: 45px;
+    margin-left: -20px;
+    letter-spacing: -20px;
 }
 
 .starsreviews2 {
-    margin-top: 73px;
-    letter-spacing: -2px;
+    margin-top: 65px;
+    margin-left: -20px;
+    letter-spacing: -20px;
 }
 
 .activites{
     display: flex;
     flex-wrap: wrap;
-
     margin-bottom: 30px;
-    margin-top: 60px;
-    justify-content: space-between;
+    margin-top: 40px;
+   
 }
 
 
@@ -420,60 +439,66 @@ body {
 
 .grandcard{
     height: 350px;
-    width: 271px;
+    width: 259px;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    margin-left: -10px;
 }
 
 .grandcard2{
     height: 350px;
-    width: 271px;
+    width: 259px;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    margin-left: -10px;
 }
 
 
 .smallcard1{
     height: 150px;
-    width: 271px;
+    width: 259px;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    margin-left: -10px;
 }
 .smallcard2{
     height: 95px;
-    width: 271px;
+    width: 259px;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    margin-left: -10px;
 }
 .smallcard3{
     height: 110px;
-    width: 271px;
+    width: 259px;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    margin-left: -10px;
 }
 .smallcard4{
     height: 128px;
-    width: 271px;
+    width: 259px;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    margin-left: -10px;
 }
 
 
 .hotel10{
     height: 400px;
-    width: 268px;
+    width: 258px;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
@@ -486,7 +511,7 @@ body {
 
 .hotel11{
     height: 200px;
-    width: 268px;
+    width: 258px;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
@@ -500,7 +525,7 @@ body {
 
 .hotel12{
     height: 145px;
-    width:268px;
+    width:258px;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
@@ -515,7 +540,7 @@ body {
 
 .hotel13{
     height: 400px;
-    width: 268px;
+    width: 258px;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
@@ -528,7 +553,7 @@ body {
 
 .hotel14{
     height: 160px;
-    width: 268px;
+    width: 258px;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
@@ -541,7 +566,7 @@ body {
 
 .hotel15{
     height: 180px;
-    width: 268px;
+    width: 258px;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
@@ -563,14 +588,10 @@ footer{
     margin-top: 60px;
     padding-top: 20px;
     line-height: 30px;
-    font-size: 15px;
-    
-    
+    font-size: 15px; 
 }
 
-.footerassistance{
-  
-}
+
 
 
 
@@ -614,12 +635,13 @@ footer{
     #logo{
         max-width:  150px;
         height: 60px;
-        margin-left: 120px;
+        
         width: 100vw;
     }
 
     .linksnav{
         justify-content: space-evenly;
+       
         border-bottom:4px solid #F2F2F2;
         padding-bottom: 20px;
     }
