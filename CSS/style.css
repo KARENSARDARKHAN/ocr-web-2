@@ -619,15 +619,13 @@ footer{
     #logo{
         max-width:  150px;
         height: 60px;
-        
         width: 100vw;
     }
 
     .linksnav{
         justify-content: space-evenly;
-       
-        border-bottom:4px solid #F2F2F2;
-        padding-bottom: 20px;
+        border-bottom:2px solid #F2F2F2;
+        
     }
 
 
@@ -640,7 +638,7 @@ footer{
         display: block;
         width: 100%;
         margin: 0;
-        padding: 0;
+        padding: 30px;
         text-align: center;
         font-size: 20px;
     }
@@ -648,12 +646,15 @@ footer{
     .menu-item:hover {
         border-top: none;
         border-bottom: 4px solid #0065fc;
-        padding-bottom: 20px;
         color: #0065fc;
     }
 
     .searchbutton {
         display: none
+    }
+
+    #laloupe {
+        margin-left: -11px;
     }
 
 
@@ -812,18 +813,29 @@ footer{
 
      @media  (max-width:768px){
 
+
     #logo{
             margin-left: 280px;
         }
 
         .hebergementcontainer {
             margin-bottom: 1300px;
+            margin-left: 30px;
         }   
+
+        
+
+        .lespluspopulaires{
+            margin-left: -60px;
+            width: 100vw;
+            height: 750px;
+        }
         
         .card{
             width: 695px;
             height: 380px;
             padding: 3px 6px;
+            font-size: 16px;
         }
 
         img.contain{
@@ -835,6 +847,8 @@ footer{
  .card2{
     width: 695px;
     height: 180px;
+    margin-left: 10px;
+    font-size: 16px;
  }
 
  img.contain2{
@@ -893,30 +907,83 @@ footer{
 }
 
 .grandcard{
-    min-width: -webkit-fill-available;
-    height: 150px;
+    width: 695px;
+    height: 280px;
+    margin-bottom: 35px;
+    font-size: 16px;
 }
 
 .grandcard2{
-    min-width: -webkit-fill-available;
-    height: 150px
+    width: 695px;
+    height: 280px;
+    margin-bottom: 35px;
 }
 
 .smallcard1{
-    min-width: -webkit-fill-available;
-    height: 150px
+    width: 695px;
+    height: 280px;
+    margin-bottom: 35px;
 }
 .smallcard2{
-    min-width: -webkit-fill-available;
-    height: 150px
+    width: 695px;
+    height: 280px;
+    margin-bottom: 35px;
 }
 .smallcard3{
-    min-width: -webkit-fill-available;
-    height: 150px
+    width: 695px;
+    height: 280px;
+    margin-bottom: 35px;
 }
 .smallcard4{
-    min-width: -webkit-fill-available;
-    height: 150px
+    width: 695px;
+    height: 280px;
+    margin-bottom: 35px;
 }
+
+.card:hover {
+    transform: none;
+    transition: none;
+    background-color: #DEEBFF;
+}
+
+.card2:hover {
+    transform: none;
+    transition: none;
+    background-color: #DEEBFF;
+}
+
+.hotel10:hover{
+    transform: none;
+    transition: none;
+}
+
+
+.hotel11:hover{
+    transform: none;
+    transition: none;
+}
+
+.hotel12:hover{
+    transform: none;
+    transition: none;
+}
+
+
+.hotel13:hover{
+    transform: none;
+    transition: none;
+}
+
+.hotel14:hover{
+    transform: none;
+    transition: none;
+}
+
+.hotel15:hover{
+    transform: none;
+    transition: none;
+}
+
+
 
      }
