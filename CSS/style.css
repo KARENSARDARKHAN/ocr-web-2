@@ -402,7 +402,7 @@ margin-left: -10px;
 
 .activites{
     display: flex;
-    gap: 22px;
+    gap: 24px;
     margin-bottom: 40px;
     margin-top: 30px;
     margin-left: -25px;    
@@ -686,7 +686,7 @@ footer{
 
     .groupofhotels {
         flex-direction: column;
-        align-items: flex-start;
+        
     }
 
     .lespluspopulaires{
@@ -711,9 +711,6 @@ footer{
 .contain {
     min-width: -webkit-fill-available;
 }
-
-
-
 
 
     .activites {
@@ -803,4 +800,123 @@ footer{
 
     .footerassistance{
         margin-right: 0px;
+     }
+
+
+
+
+
+
+
+
+
+     @media  (max-width:768px){
+
+    #logo{
+            margin-left: 280px;
+        }
+
+        .hebergementcontainer {
+            margin-bottom: 1300px;
+        }   
+        
+        .card{
+            width: 695px;
+            height: 380px;
+            padding: 3px 6px;
+        }
+
+        img.contain{
+            width: 680px;
+            height: 260px;
+
+        }
+    
+ .card2{
+    width: 695px;
+    height: 180px;
+ }
+
+ img.contain2{
+    width: 266.26px;
+    height: 170px;
+ }
+
+.activites {
+    flex-direction: column;
+    gap: 10px;
+    width: auto;
+    
+}
+
+.hotel10 {
+    
+    width: 695px;
+    height: 380px;
+    margin-bottom: 35px;
+}
+
+
+.hotel11 {
+    width: 695px;
+    height: 380px;
+    margin-bottom: 35px;
+
+}
+
+.hotel12 {
+    width: 695px;
+    height: 380px;
+    margin-bottom: 35px;
+
+}
+
+.hotel13 {
+    width: 695px;
+    height: 380px;
+    margin-bottom: 35px;
+
+}
+
+.hotel14 {
+    width: 695px;
+    height: 380px;
+    margin-bottom: 35px;
+
+}
+
+.hotel15 {
+    width: 695px;
+    height: 380px;
+    margin-bottom: 35px;
+
+}
+
+.grandcard{
+    min-width: -webkit-fill-available;
+    height: 150px;
+}
+
+.grandcard2{
+    min-width: -webkit-fill-available;
+    height: 150px
+}
+
+.smallcard1{
+    min-width: -webkit-fill-available;
+    height: 150px
+}
+.smallcard2{
+    min-width: -webkit-fill-available;
+    height: 150px
+}
+.smallcard3{
+    min-width: -webkit-fill-available;
+    height: 150px
+}
+.smallcard4{
+    min-width: -webkit-fill-available;
+    height: 150px
+}
+
      }
