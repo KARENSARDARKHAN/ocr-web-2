@@ -417,16 +417,16 @@ margin-left: -10px;
 }
 
 .activites{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-    margin-top: 40px;
-   
+   display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-left: -25px;
 }
 
 
 .activitéstitres{
-
     margin-top: 50px;
   
 }
@@ -436,10 +436,14 @@ margin-left: -10px;
     margin-left: 15px
 }
 
+.deuxcases{
+    margin-top: -17px;
+}
+
 
 .grandcard{
     height: 350px;
-    width: 259px;
+    width: 252px;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-size: cover;
@@ -449,7 +453,7 @@ margin-left: -10px;
 
 .grandcard2{
     height: 350px;
-    width: 259px;
+    width: 252px;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-size: cover;
@@ -460,7 +464,7 @@ margin-left: -10px;
 
 .smallcard1{
     height: 150px;
-    width: 259px;
+    width: 252px;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-size: cover;
@@ -469,7 +473,7 @@ margin-left: -10px;
 }
 .smallcard2{
     height: 95px;
-    width: 259px;
+    width: 252px;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-size: cover;
@@ -478,7 +482,7 @@ margin-left: -10px;
 }
 .smallcard3{
     height: 110px;
-    width: 259px;
+    width: 252px;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-size: cover;
@@ -487,7 +491,7 @@ margin-left: -10px;
 }
 .smallcard4{
     height: 128px;
-    width: 259px;
+    width: 252px;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-size: cover;
@@ -498,7 +502,7 @@ margin-left: -10px;
 
 .hotel10{
     height: 400px;
-    width: 258px;
+    width: 252px;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
@@ -511,11 +515,10 @@ margin-left: -10px;
 
 .hotel11{
     height: 200px;
-    width: 258px;
+    width: 252px;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
-
  }
 
  .hotel11:hover{
@@ -525,11 +528,11 @@ margin-left: -10px;
 
 .hotel12{
     height: 145px;
-    width:258px;
+    width: 252px;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
-    margin-top: 55px;
+    margin-top: 35px;
    
 }
 .hotel12:hover{
@@ -540,7 +543,7 @@ margin-left: -10px;
 
 .hotel13{
     height: 400px;
-    width: 258px;
+    width: 252px;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
@@ -553,7 +556,7 @@ margin-left: -10px;
 
 .hotel14{
     height: 160px;
-    width: 258px;
+    width: 252px;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
@@ -566,11 +569,11 @@ margin-left: -10px;
 
 .hotel15{
     height: 180px;
-    width: 258px;
+    width: 252px;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .hotel15:hover{
