@@ -623,22 +623,22 @@ footer{
     }
 
     .linksnav{
-        justify-content: space-evenly;
+        justify-content: space-between;
         border-bottom:2px solid #F2F2F2;
         
     }
 
 
     .linksnav li {
-        width: 50%;
+        width: 80%;
     }
 
     .menu-item {
         border-top: none;
         display: block;
-        width: 100%;
+        width: 90%;
         margin: 0;
-        padding: 30px;
+        padding-bottom: 30px;
         text-align: center;
         font-size: 20px;
     }
@@ -811,133 +811,155 @@ footer{
 
 
 
-     @media  (max-width:768px){
+     @media  all and (max-width:768px){
 
 
-    #logo{
-            margin-left: 280px;
+        body {
+        width: 100vw;
+           padding: 0;
+           margin: 0;
         }
 
+    #logo{
+        width: 30vw;
+        height: 10vh;
+        margin-left: 25vw;
+        }
+
+        .linksnav{
+            gap: 0vw;
+        }
+    
+}
+
         .hebergementcontainer {
-            margin-bottom: 1300px;
-            margin-left: 30px;
+            margin-bottom: 40vh;
+
         }   
+
+        .groupofhotels{
+            margin-left: 7vw;
+        }
 
         
 
         .lespluspopulaires{
-            margin-left: -60px;
-            width: 100vw;
-            height: 750px;
+            width:100vw;
+            height: 80vh;
+            margin-left: -7vw;
+        }
+
+        .linetrois{
+            margin-left: 7vw; 
         }
         
         .card{
-            width: 695px;
-            height: 380px;
-            padding: 3px 6px;
-            font-size: 16px;
+            width: 83vw;
+            height: 27vh;
+            margin-bottom: 6vh;
+            padding: 0.5vmax;
+            font-size: 2vmax;
+            margin-bottom: 0.6vh;
         }
 
         img.contain{
-            width: 680px;
-            height: 260px;
+            width: 78vw;
+            height: 17vh;
 
         }
     
  .card2{
-    width: 695px;
-    height: 180px;
+    width: 80vw;
+    height: 20vh;
     margin-left: 10px;
     font-size: 16px;
  }
 
  img.contain2{
-    width: 266.26px;
-    height: 170px;
+    width:40vw;
+    height: 19vh;
+ }
+
+ .activitéstitres{
+    margin-top: 50vh;
  }
 
 .activites {
     flex-direction: column;
     gap: 10px;
-    width: auto;
+    
     
 }
 
 .hotel10 {
     
-    width: 695px;
-    height: 380px;
-    margin-bottom: 35px;
+    width: 80vw;
+    height: 27vh;
+    margin-bottom: 6vh;
 }
 
 
 .hotel11 {
-    width: 695px;
-    height: 380px;
-    margin-bottom: 35px;
+    width: 80vw;
+    height: 27vh;
+    margin-bottom: 0.5vh;
 
 }
 
 .hotel12 {
-    width: 695px;
-    height: 380px;
-    margin-bottom: 35px;
+    width: 80vw;
+    height: 27vh;
+    margin-bottom: 4vh;
 
 }
 
 .hotel13 {
-    width: 695px;
-    height: 380px;
-    margin-bottom: 35px;
+    width: 80vw;
+    height: 27vh;
+    margin-bottom: 7vh;
 
 }
 
 .hotel14 {
-    width: 695px;
-    height: 380px;
-    margin-bottom: 35px;
+    width: 80vw;
+    height: 27vh;
+    margin-bottom: 1vh;
 
 }
 
 .hotel15 {
-    width: 695px;
-    height: 380px;
-    margin-bottom: 35px;
+    width: 80vw;
+    height: 27vh;
+    margin-bottom: 0.5vh;
 
 }
 
 .grandcard{
-    width: 695px;
-    height: 280px;
-    margin-bottom: 35px;
-    font-size: 16px;
+    width: 80vw;
+    height: 20vh;
 }
 
 .grandcard2{
-    width: 695px;
-    height: 280px;
-    margin-bottom: 35px;
+    width: 80vw;
+    height: 20vh;
 }
 
 .smallcard1{
-    width: 695px;
-    height: 280px;
-    margin-bottom: 35px;
+    width: 80vw;
+    height: 20vh;
 }
 .smallcard2{
-    width: 695px;
-    height: 280px;
-    margin-bottom: 35px;
+    width: 80vw;
+    height: 20vh;
 }
+
 .smallcard3{
-    width: 695px;
-    height: 280px;
-    margin-bottom: 35px;
+    width: 80vw;
+    height: 20vh;
 }
 .smallcard4{
-    width: 695px;
-    height: 280px;
-    margin-bottom: 35px;
+    width: 80vw;
+    height: 20vh;
 }
 
 .card:hover {
