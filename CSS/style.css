@@ -104,7 +104,7 @@ body :not(footer){
 .filtres {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 5px;
     margin-left: -20px;
 }
 
@@ -149,7 +149,7 @@ body :not(footer){
 
 #longbox1 {
     display: flex;
-    width: 170px;
+    width: 160px;
     height: 38px;
     border-radius: 35px;
     border-color: #100f0f;
@@ -165,7 +165,7 @@ body :not(footer){
 
 #longbox2 {
     display: flex;
-    width: 140px;
+    width: 130px;
     height: 38px;
     border-radius: 35px;
     border-color: #100f0f;
@@ -181,7 +181,7 @@ body :not(footer){
 
 #longbox3 {
     display: flex;
-    width: 170px;
+    width: 160px;
     height: 38px;
     border-radius: 35px;
     border-color: #100f0f;
@@ -198,7 +198,7 @@ body :not(footer){
 
 #longbox4 {
     display: flex;
-    width: 215px;
+    width: 200px;
     height: 38px;
     border-radius: 35px;
     border-color: #100f0f;
@@ -244,8 +244,8 @@ body :not(footer){
 
 }
 
-.hebergementstitle {
-    padding-left: 65px;
+h3.hebergementstitle {
+    padding-left: 25px;
     padding-top: 12px;
 }
 
@@ -255,17 +255,14 @@ body :not(footer){
     justify-content: center;
     gap: 30px;
 }
-.starsreviews0 {
+
+div.starsreviews0 {
     padding-left: 0px;
+    margin-top: 15px;
 }
 
 
-.groupofhotels2 {
-    display: flex;
-    gap: 30px;
-    margin-bottom: 50px;
-    margin-left: 42px;
-}
+
 
 #hebergementsamarseille p{
 margin-left: 1px;
@@ -274,19 +271,23 @@ margin-left: 1px;
 .afficherplus {
     font-weight: bold;
     font-size: 15px;
-    margin-left: 50px;
 }
+
+p.afficherplus{
+padding-left: 15px;
+}
+
 
 
 .card {
     background-color: white;
-    width: 15vw;
+    width: 17vw;
     height: 179px;
     padding-left: 5px;
     padding-right: 1px;
     border-radius: 15px;
     box-shadow: 0 0 20px grey;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 2px;
 
 }
@@ -298,7 +299,7 @@ margin-left: 1px;
 }
 
 .card img {
-    width: 14.7vw;
+    width: 16.7vw;
     height: 109px;
     border-radius: 15px 15px 0px 0px;
     margin-top: 4px;
@@ -317,7 +318,7 @@ margin-left: 1px;
 }
 
 .starsreviews0 {
-    letter-spacing: -500px;  
+    letter-spacing: -300px;  
 }
 
 
@@ -334,6 +335,10 @@ margin-left: 1px;
 
 #Lespluspopulaires {
     margin-top: 30px;
+}
+
+h3#Lespluspopulaires{
+    margin-left: -11px;
 }
 
 .etoile {
@@ -358,7 +363,7 @@ margin-left: 1px;
     display: flex;
     box-shadow: 0 0 20px grey;
     margin-top: 30px;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 2px;
 
 }
@@ -389,7 +394,7 @@ margin-left: -10px;
 }
 
 .starsreviews {
-    margin-top: 45px;
+    margin-top: 50px;
     margin-left: -20px;
     letter-spacing: -20px;
 }
@@ -422,6 +427,10 @@ margin-left: -10px;
     margin-top: 15px;
 }
 
+h4#activitesamarseille{
+padding-left: -8px;
+}
+
 .deuxcases{
     margin-top: -17px;
 }
@@ -429,7 +438,7 @@ margin-left: -10px;
 
 .grandcard{
     height: 350px;
-    width: 19.5vw;
+    width: 20vw;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-size: cover;
@@ -439,7 +448,7 @@ margin-left: -10px;
 
 .grandcard2{
     height: 350px;
-    width: 19.5vw;
+    width: 20vw;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-size: cover;
@@ -449,7 +458,7 @@ margin-left: -10px;
 
 .smallcard1{
     height: 150px;
-    width: 19.5vw;
+    width: 20vw;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-size: cover;
@@ -458,7 +467,7 @@ margin-left: -10px;
 }
 .smallcard2{
     height: 95px;
-    width: 19.5vw;
+    width: 20vw;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-size: cover;
@@ -467,7 +476,7 @@ margin-left: -10px;
 }
 .smallcard3{
     height: 110px;
-    width: 19.5vw;
+    width: 20vw;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-size: cover;
@@ -476,7 +485,7 @@ margin-left: -10px;
 }
 .smallcard4{
     height: 128px;
-    width: 19.5vw;
+    width: 20vw;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-size: cover;
@@ -487,10 +496,12 @@ margin-left: -10px;
 
 .hotel10{
     height: 400px;
-    width: 19.5vw;
+    width: 20vw;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
+    font-size: 13px;
+    font-weight: bolder;
 }
 
 .hotel10:hover{
@@ -500,10 +511,12 @@ margin-left: -10px;
 
 .hotel11{
     height: 200px;
-    width: 19.5vw;
+    width: 20vw;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
+    font-size: 13px;
+    font-weight: bolder;
  }
 
  .hotel11:hover{
@@ -513,11 +526,13 @@ margin-left: -10px;
 
 .hotel12{
     height: 145px;
-    width: 19.5vw;
+    width: 20vw;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
     margin-top: 35px;
+    font-size: 13px;
+    font-weight: bolder;
    
 }
 .hotel12:hover{
@@ -528,10 +543,12 @@ margin-left: -10px;
 
 .hotel13{
     height: 400px;
-    width: 19.5vw;
+    width: 20vw;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
+    font-size: 13px;
+    font-weight: bolder;
 }
 
 .hotel13:hover{
@@ -541,10 +558,12 @@ margin-left: -10px;
 
 .hotel14{
     height: 160px;
-    width: 19.5vw;
+    width: 20vw;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
+    font-size: 13px;
+    font-weight: bolder;
 }
 
 .hotel14:hover{
@@ -554,11 +573,13 @@ margin-left: -10px;
 
 .hotel15{
     height: 180px;
-    width: 19.5vw;
+    width: 20vw;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
     margin-top: 40px;
+    font-size: 13px;
+    font-weight: bolder;
 }
 
 .hotel15:hover{
