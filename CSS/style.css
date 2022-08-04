@@ -907,11 +907,44 @@ margin-right: -10px;
      @media (max-width:768px){
 
         .navbar {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
+            flex-direction: column;
+        }
+        
+        img#logo{
+            width:  25vw;
+            height: 10vh;
+            margin-left: 250px;
             
         }
+    
+        .linksnav{
+            justify-content: space-evenly;
+            border-bottom:4px solid #F2F2F2;
+            padding-bottom: 20px;
+        }
+    
+    
+        .linksnav li {
+            width: 50%;
+        }
+    
+        .menu-item {
+            border-top: none;
+            display: block;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-size: 20px;
+        }
+    
+        .menu-item:hover {
+            border-top: none;
+            border-bottom: 4px solid #0065fc;
+            padding-bottom: 20px;
+            color: #0065fc;
+        }
+    
 
         #logo{
             width: 30vw;
@@ -936,7 +969,7 @@ h3.hebergementstitle{
  
 .card{
     width: 84vw;
-    height: 27vh;
+    height: 30vh;
     margin-bottom: 6vh;
     padding: 0.5vmax;
     font-size: 2vmax;
@@ -950,8 +983,12 @@ img.contain{
 
 }
 
+p.afficherplus{
+    margin-left: 3vw;
+}
+
 .lespluspopulaires{
-    height: 95vh;
+    height: 620px;
 }
 
 
@@ -981,17 +1018,6 @@ h3#Lespluspopulaires{
  section.activitesamarseille.activitesamarseille{
     margin-left: vw;
  }
-
-
-
-
-
-
-
-
-
-
-
 
 
     
