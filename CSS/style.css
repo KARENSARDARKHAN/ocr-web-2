@@ -27,6 +27,7 @@ body :not(footer){
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 
 .linksnav {
@@ -758,7 +759,7 @@ margin-right: -10px;
     
             .hotel10 {
     
-                width: 86vw;
+                width: 84vw;
                 height: 29vh;
                 margin-bottom: 4vh;
                 margin-left: 4vw;
@@ -766,66 +767,66 @@ margin-right: -10px;
             
             
             .hotel11 {
-                width: 86vw;
+                width: 84vw;
                 height: 29vh;
                 margin-bottom: 2vh;
                 margin-left: 4vw;
             }
             
             .hotel12 {
-                width: 86vw;
+                width: 84vw;
                 height: 29vh;
                 margin-bottom: 2vh;
                 margin-left: 4vw;
             }
             
             .hotel13 {
-                width: 86vw;
+                width: 84vw;
                 height: 29vh;
                 margin-bottom: 4vh;
                 margin-left: 4vw;
             }
             
             .hotel14 {
-                width: 86vw;
+                width: 84vw;
                 height: 29vh;
                 margin-bottom: 2vh;
                 margin-left: 4vw;
             }
             
             .hotel15 {
-                width: 86vw;
+                width: 84vw;
                 height: 29vh;
                 margin-bottom: 0.5vh;
                 margin-left: 4vw;
             }
             
             .grandcard{
-                width: 86vw;
-                height: 20vh;
+                width: 84vw;
+                height: 22vh;
             }
             
             .grandcard2{
-                width: 86vw;
-                height: 20vh;
+                width: 84vw;
+                height: 22vh;
             }
             
             .smallcard1{
-                width: 86vw;
-                height: 20vh;
+                width: 84vw;
+                height: 22vh;
             }
             .smallcard2{
-                width: 86vw;
-                height: 20vh;
+                width: 84vw;
+                height: 22vh;
             }
             
             .smallcard3{
-                width: 86vw;
-                height: 20vh;
+                width: 84vw;
+                height: 22vh;
             }
             .smallcard4{
-                width: 86vw;
-                height: 20vh;
+                width: 84vw;
+                height: 22vh;
             }
 
 
@@ -903,6 +904,97 @@ margin-right: -10px;
 
 
 
-     @media (max-width:768px)
+     @media (max-width:768px){
 
-        
+        .navbar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            
+        }
+
+        #logo{
+            width: 30vw;
+            height: 8vh;
+            margin-left:5vw;
+            }
+
+
+    #laloupe {
+    border-radius: 15px ;
+        width: 35px;
+}
+
+.groupofhotels{
+    flex-direction: column;
+    margin-left: 6vw;
+}
+
+h3.hebergementstitle{
+    margin-left: 6vw;
+}
+ 
+.card{
+    width: 84vw;
+    height: 27vh;
+    margin-bottom: 6vh;
+    padding: 0.5vmax;
+    font-size: 2vmax;
+    margin-bottom: 0.6vh;
+    margin-left: 2vw;
+}
+
+img.contain{
+    width: 83.7vw;
+    height: 17vh;
+
+}
+
+.lespluspopulaires{
+    height: 95vh;
+}
+
+
+h3#Lespluspopulaires{
+    margin-left: 6vw;
+}
+
+.card2{
+    width: 83vw;
+    height: 25vh;
+}  
+
+.textcard2 h3{
+    overflow-wrap: break-word
+}
+
+ img.contain2{
+    width:25vw;
+    height: 24vh;
+    
+ }
+
+
+ h3.activitéstitres{
+    margin-left: 6vw;
+ }
+ section.activitesamarseille.activitesamarseille{
+    margin-left: vw;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     }
+
+       
