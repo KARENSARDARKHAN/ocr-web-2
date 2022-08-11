@@ -734,14 +734,12 @@ body{
             background: none;
             width: 100vw;
             padding: 0px;
-            margin: -30px;
             
         }
 
         .groupofhotels{
-            gap: 50px;
-            padding-left: 2vw;
             margin-left: 20px;
+            gap: 45px;
         }
 
         p.afficherplus{
@@ -753,22 +751,23 @@ body{
             border-radius: 0px;
                 min-width:100vw;
                 height: 650px;
-                margin-left: -7vw;
                 padding: 0px;
+                
+                
             }
 
             h3#Lespluspopulaires{
-                margin-left: 60px;
+                margin-left: 40px;
                 margin-bottom: 35px;
                 
             }
 
-            #lespluspopulaires a{
-                padding: 0px;
+            i#blackstar.fa-solid.fa-star::before{
+                margin-left: 390px;
             }
 
-            i#blackstar.fa-solid.fa-star{
-                margin-left: 420px;
+            #lespluspopulaires a{
+                padding: 0px;
             }
         
     
@@ -796,7 +795,7 @@ body{
     height: 150px;
     margin-left: 10px;
     font-size: 14px;
-    margin-left: 7vw;
+    
  }
 
  img.contain2{
@@ -813,9 +812,9 @@ body{
  }
 
  .activitestitres{
-    margin-top: 6vh;
-    margin-left: -1px;
-    margin-bottom: 4vh;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-bottom: 40px;
  }
 
 
@@ -827,14 +826,14 @@ body{
             justify-content: center;
             gap: 0;
             margin: 0px;
-            width: 90vw;
-            margin-left: 10px;
+            width: 95vw;
+            margin-left: 40px;
 
         }
     
             .hotel10 {
     
-                width: 83vw;
+                width: 82vw;
                 height: 25vh;
                 margin-bottom: 20px;
                 font-size: 13px;
@@ -842,14 +841,14 @@ body{
             
             
             .hotel11 {
-                width: 83vw;
+                width: 82vw;
                 height: 25vh;
                 margin-bottom: 0;
                 font-size: 13px;
             }
             
             .hotel12 {
-                width: 83vw;
+                width: 82vw;
                 height: 25vh;
                 margin-top: 0;
                 font-size: 13px;
@@ -857,7 +856,7 @@ body{
             }
             
             .hotel13 {
-                width: 83vw;
+                width: 82vw;
                 height: 25vh;
                 margin-top:-16px;
                 margin-bottom: 1.5vh;
@@ -866,13 +865,13 @@ body{
             }
             
             .hotel14 {
-                width: 83vw;
+                width: 82vw;
                 height: 25vh;
                 font-size: 13px;
             }
             
             .hotel15 {
-                width: 83vw;
+                width: 82vw;
                 height: 25vh;
                 margin-bottom: 0.5vh;
                 margin-top: 0;
@@ -880,35 +879,35 @@ body{
             }
             
             .grandcard{
-                width: 82vw;
+                width: 81vw;
                 height: 20vh;
                 margin-bottom: 15px;
             }
             
             .grandcard2{
-                width: 82vw;
+                width: 81vw;
                 height: 20vh;
                 margin-bottom: 15px;
             }
             
             .smallcard1{
-                width: 82vw;
+                width: 81vw;
                 height: 20vh;
                 margin-bottom: 15px;
             }
             .smallcard2{
-                width: 82vw;
+                width: 81vw;
                 height: 20vh;
                 margin-bottom: 15px;
             }
             
             .smallcard3{
-                width: 82vw;
+                width: 81vw;
                 height: 20vh;
                 margin-bottom: 15px;
             }
             .smallcard4{
-                width: 82vw;
+                width: 81vw;
                 height: 20vh;
                 margin-bottom: 15px;
             }
@@ -920,6 +919,7 @@ body{
             flex-wrap: wrap;
             flex-direction: column;
             gap: 0;
+            font-size: larger;
             
         }
     
@@ -1025,38 +1025,6 @@ img.contain{
 p.afficherplus{
     margin-left: 3vw;
 }
-
-.lespluspopulaires{
-    height: 620px;
-}
-
-
-h3#Lespluspopulaires{
-    margin-left: 6vw;
-}
-
-.card2{
-    width: 83vw;
-    height: 25vh;
-}  
-
-.textcard2 h3{
-    overflow-wrap: break-word
-}
-
- img.contain2{
-    width:25vw;
-    height: 24vh;
-    
- }
-
-
- h3.activitestitres{
-    margin-left: 6vw;
- }
- section.activitesamarseille.activitesamarseille{
-    margin-left: vw;
- }
 
 
  .card:hover {
