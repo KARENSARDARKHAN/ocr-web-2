@@ -16,6 +16,10 @@ body :not(footer){
     padding-right: 10px;
 }
 
+header{
+    padding: 0px;
+}
+
 #logo {
     width: 90px;
     height: 40px;
@@ -27,13 +31,18 @@ body :not(footer){
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    padding: 0px;
 }
+
 
 .linksnav {
     display: flex;
-    padding-top: 30px;
+    padding-top: 22px;
     gap: 60px;
+}
+
+a.menu-item{
+    padding: 0px;
 }
 
 
@@ -42,8 +51,8 @@ body :not(footer){
     padding-top: 43px;
 }
 
-.recherche h3, P {
-    margin-left:-8px;
+.recherche h3{
+  padding: 0;
 }
 
 
@@ -60,7 +69,8 @@ body :not(footer){
     background-color: #F2F2F2;
     border-radius: 15px 0 0 15px;
     height: 45px;
-    width: 30px;
+    width: 40px;
+    padding-left: 2px;
     margin-left: -24px;
 }
 
@@ -87,7 +97,7 @@ body :not(footer){
     border-radius: 0 15px 15px 0;
 }
 
-#laloupe {
+#magnifyingglass {
     height: 45px;
     width: 45px;
     display: flex;
@@ -103,11 +113,17 @@ body :not(footer){
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
-    margin-left: -20px;
+    margin-right: 20px;
 }
 
 .filtres h4 {
     font-weight: bold;
+    padding: 0px;
+    
+}
+
+section.filtres{
+    padding: 0px;
 }
 
 #longbox1:hover {
@@ -119,6 +135,7 @@ body :not(footer){
     color: #ffffff;
     background-color: #0065fc;
 }
+
 
 #longbox3:hover {
     color: #ffffff;
@@ -228,22 +245,28 @@ body :not(footer){
     font-size: 13px;
     border: 2px solid #e6e2e2;
     margin-right: 5px;
-    margin-left: -10px;
+    
+}
+
+div.info{
+    padding: 0px;
 }
 
 .hebergementcontainer {
     display: flex;
     gap: 28px;
+    padding: 0px;
 }
 
 .hebergementsamarseille {
     background-color: #F2F2F2;
     border-radius: 15px;
+    padding: 5px;
 
 }
 
 h3.hebergementstitle {
-    padding-left: 25px;
+    padding-left: 50px;
     padding-top: 12px;
 }
 
@@ -252,6 +275,7 @@ h3.hebergementstitle {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    padding: 0px;
 }
 
 div.starsreviews0 {
@@ -260,10 +284,9 @@ div.starsreviews0 {
 }
 
 
-
-
 #hebergementsamarseille p{
 margin-left: 1px;
+
 }
 
 .afficherplus {
@@ -272,23 +295,36 @@ margin-left: 1px;
 }
 
 p.afficherplus{
-padding-left: 30px;
+padding-left: 55px;
 }
 
+
+.groupofhotels.a{
+    padding: 0px;
+}
 
 
 .card {
     background-color: white;
-    width: 17vw;
+    width: 218px;
     height: 179px;
-    padding-left: 5px;
-    padding-right: 1px;
     border-radius: 15px;
     box-shadow: 0 0 20px grey;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 2px;
-
+    padding: 0px;
+    
+   
 }
+
+.hebergementsamarseille a{
+    padding: 0px;
+}
+
+img.contain{    
+    padding: 0px;
+}
+
 
 .card:hover {
     transform: scale(1.10);
@@ -297,12 +333,12 @@ padding-left: 30px;
 }
 
 .card img {
-    width: 16.7vw;
+    width: 212px;
     height: 109px;
     border-radius: 15px 15px 0px 0px;
-    margin-top: 4px;
-    margin-bottom: 1px;
-    margin-left: -20px;
+    margin-top: 3px;
+    margin-left: 3px;
+    padding-left: 0px;    
 }
 
 .contain {
@@ -316,7 +352,9 @@ padding-left: 30px;
 }
 
 .starsreviews0 {
-    letter-spacing: -300px;  
+    font-size: x-small; 
+    letter-spacing: -3vmax;
+   
 }
 
 
@@ -327,7 +365,8 @@ padding-left: 30px;
 
 .titleandstar {
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    
    
 }
 
@@ -336,13 +375,19 @@ padding-left: 30px;
 }
 
 h3#Lespluspopulaires{
-    margin-left: -11px;
+padding: 0px;
 }
 
 .etoile {
     align-self: flex-start;
-    margin-left: 70px;
+    margin-left: 110px;
     margin-top: 30px;
+    padding: 0px;
+}
+
+
+i#blackstar.fa-solid.fa-star{
+    padding: 0px;
 }
 
 
@@ -350,6 +395,7 @@ h3#Lespluspopulaires{
 .linetrois {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     margin-top: -27px;
 }
 
@@ -361,8 +407,9 @@ h3#Lespluspopulaires{
     display: flex;
     box-shadow: 0 0 20px grey;
     margin-top: 30px;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 2px;
+    padding: 0px;
 
 }
 
@@ -374,11 +421,14 @@ h3#Lespluspopulaires{
 
 .card2 img {
     width: 110px;
-    height: 110px;
+    height: 111px;
     border-radius: 15px 0 0 15px;
     margin-bottom: 5px;
-    margin-top: 5px;
-    margin-left: -14px;
+    margin-top: 4px;
+    padding: 0px;
+    margin-left: 3px;
+    margin-right: 10px;
+    
 
 }
 
@@ -394,13 +444,15 @@ margin-left: -10px;
 .starsreviews {
     margin-top: 50px;
     margin-left: -20px;
-    letter-spacing: -20px;
+    letter-spacing: -3vmax;
+    font-size: x-small;
 }
 
 .starsreviews2 {
     margin-top: 65px;
     margin-left: -20px;
-    letter-spacing: -20px;
+    letter-spacing: -3vmax;
+    font-size: x-small;
 }
 
 
@@ -415,7 +467,7 @@ margin-left: -10px;
 }
 
 
-.activitéstitres{
+.activitestitres{
     margin-top: 50px;
   
 }
@@ -424,70 +476,64 @@ margin-left: -10px;
     margin-top: 15px;
 }
 
-h4#activitesamarseille{
-padding-left: -8px;
-}
+
 
 .deuxcases{
-    margin-top: -17px;
+    position: relative;
+    bottom: 17px;
 }
 
 
 .grandcard{
     height: 350px;
-    width: 20vw;
+    width: 19.3vw;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    margin-left: -10px;
+
 }
 
 .grandcard2{
     height: 350px;
-    width: 20vw;
+    width: 19.3vw;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    margin-left: -10px;
 }
 
 .smallcard1{
     height: 150px;
-    width: 20vw;
+    width: 19.3vw;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    margin-left: -10px;
 }
 .smallcard2{
     height: 95px;
-    width: 20vw;
+    width: 19.3vw;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    margin-left: -10px;
 }
 .smallcard3{
     height: 110px;
-    width: 20vw;
+    width: 19.3vw;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    margin-left: -10px;
 }
 .smallcard4{
     height: 128px;
-    width: 20vw;
+    width: 19.3vw;
     border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    margin-left: -10px;
 }
 
 
@@ -497,8 +543,10 @@ padding-left: -8px;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bolder;
+    padding-left: 0px;
+    margin-bottom: 0;
 }
 
 .hotel10:hover{
@@ -512,8 +560,9 @@ padding-left: -8px;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bolder;
+    padding-left: 0px;
  }
 
  .hotel11:hover{
@@ -528,8 +577,9 @@ padding-left: -8px;
     background-color:white;
     box-shadow: 0 0 20px grey;
     margin-top: 35px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bolder;
+    padding-left: 0px;
    
 }
 .hotel12:hover{
@@ -544,8 +594,9 @@ padding-left: -8px;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bolder;
+    padding-left: 0px;
 }
 
 .hotel13:hover{
@@ -559,8 +610,9 @@ padding-left: -8px;
     border-radius: 15px;
     background-color:white;
     box-shadow: 0 0 20px grey;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bolder;
+    padding-left: 0px;
 }
 
 .hotel14:hover{
@@ -575,8 +627,9 @@ padding-left: -8px;
     background-color:white;
     box-shadow: 0 0 20px grey;
     margin-top: 40px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bolder;
+    padding-left: 0px;
 }
 
 .hotel15:hover{
@@ -589,7 +642,7 @@ footer{
    
     background-color:#F2F2F2;
     display: flex;
-    justify-content:flex-start;
+    justify-content: space-between;
     gap: 10vw;
     margin-top: 60px;
     padding-top: 20px;
@@ -620,7 +673,7 @@ footer{
 
 
 @media (min-width:993px){
-    #laloupe{
+    #magnifyingglass{
         display:none;
     }
 }
@@ -628,17 +681,21 @@ footer{
 
     @media (max-width:992px) {
     
-body{
-margin-right: -10px;
-    margin: 0;
-   
+body:not(footer){
+padding-right: 0px;
+padding-left: 0px;
 }
+
+body{
+    margin: 0px;
+}
+
 
         .searchbutton{
             display: none;
         }
 
-        #laloupe {
+        #magnifyingglass {
             margin-left: -11px;
         }
 
@@ -682,31 +739,43 @@ margin-right: -10px;
         }
 
         .groupofhotels{
-            gap: 7vw;
+            gap: 50px;
             padding-left: 2vw;
+            margin-left: 20px;
         }
 
         p.afficherplus{
-            padding-left: 7vw;
+            padding-left: 9.5vw;
         }
+
     
         .lespluspopulaires{
             border-radius: 0px;
-                width:100vw;
+                min-width:100vw;
                 height: 650px;
                 margin-left: -7vw;
+                padding: 0px;
             }
 
             h3#Lespluspopulaires{
-                margin-left: 26px;
+                margin-left: 60px;
                 margin-bottom: 35px;
+                
+            }
+
+            #lespluspopulaires a{
+                padding: 0px;
+            }
+
+            i#blackstar.fa-solid.fa-star{
+                margin-left: 420px;
             }
         
     
         .card{
             width: 40vw;
             height: 200px;
-            font-size: 2vmax;
+            font-size: 10px;
             margin-bottom: 0.6vh;
         font-size: smaller;
         }
@@ -716,162 +785,132 @@ margin-right: -10px;
             height: 120px;
 
         }
+
+        .linetrois{
+            padding: 0px;
+            margin-left: 50px;
+        }
     
  .card2{
     width: 85vw;
     height: 150px;
     margin-left: 10px;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 7vw;
  }
 
  img.contain2{
-    width:40vw;
+    width:30vw;
     height: 140px;
  }
 
  div.starsreviews2{
-    margin-top: 75px;
+    margin-top: 85px;
  }
 
  div.starsreviews{
-    margin-top: 55px;
+    margin-top: 65px;
  }
 
- .activitéstitres{
-    margin-top: 5vh;
+ .activitestitres{
+    margin-top: 6vh;
     margin-left: -1px;
-    margin-bottom: 7vh;
+    margin-bottom: 4vh;
  }
 
 
- section.activitesamarseille.activitesamarseille{
-    margin-left: -13px;
- }
+
 
   
         .activites {
             flex-direction: column;
             justify-content: center;
-            gap: 3vh;
-            width: 90vw; 
+            gap: 0;
+            margin: 0px;
+            width: 90vw;
+            margin-left: 10px;
+
         }
     
             .hotel10 {
     
-                width: 84vw;
-                height: 29vh;
-                margin-bottom: 4vh;
-                margin-left: 4vw;
+                width: 83vw;
+                height: 25vh;
+                margin-bottom: 20px;
+                font-size: 13px;
             }
             
             
             .hotel11 {
-                width: 84vw;
-                height: 29vh;
-                margin-bottom: 2vh;
-                margin-left: 4vw;
+                width: 83vw;
+                height: 25vh;
+                margin-bottom: 0;
+                font-size: 13px;
             }
             
             .hotel12 {
-                width: 84vw;
-                height: 29vh;
-                margin-bottom: 2vh;
-                margin-left: 4vw;
+                width: 83vw;
+                height: 25vh;
+                margin-top: 0;
+                font-size: 13px;
+                
             }
             
             .hotel13 {
-                width: 84vw;
-                height: 29vh;
-                margin-bottom: 4vh;
-                margin-left: 4vw;
+                width: 83vw;
+                height: 25vh;
+                margin-top:-16px;
+                margin-bottom: 1.5vh;
+                gap: 0;
+                font-size: 13px;
             }
             
             .hotel14 {
-                width: 84vw;
-                height: 29vh;
-                margin-bottom: 2vh;
-                margin-left: 4vw;
+                width: 83vw;
+                height: 25vh;
+                font-size: 13px;
             }
             
             .hotel15 {
-                width: 84vw;
-                height: 29vh;
+                width: 83vw;
+                height: 25vh;
                 margin-bottom: 0.5vh;
-                margin-left: 4vw;
+                margin-top: 0;
+                font-size: 13px;
             }
             
             .grandcard{
-                width: 84vw;
-                height: 22vh;
+                width: 82vw;
+                height: 20vh;
+                margin-bottom: 15px;
             }
             
             .grandcard2{
-                width: 84vw;
-                height: 22vh;
+                width: 82vw;
+                height: 20vh;
+                margin-bottom: 15px;
             }
             
             .smallcard1{
-                width: 84vw;
-                height: 22vh;
+                width: 82vw;
+                height: 20vh;
+                margin-bottom: 15px;
             }
             .smallcard2{
-                width: 84vw;
-                height: 22vh;
+                width: 82vw;
+                height: 20vh;
+                margin-bottom: 15px;
             }
             
             .smallcard3{
-                width: 84vw;
-                height: 22vh;
+                width: 82vw;
+                height: 20vh;
+                margin-bottom: 15px;
             }
             .smallcard4{
-                width: 84vw;
-                height: 22vh;
-            }
-
-
-            .card:hover {
-                transform: none;
-                transition: none;
-                background-color: #DEEBFF;
-            }
-            
-            .card2:hover {
-                transform: none;
-                transition: none;
-                background-color: #DEEBFF;
-            }
-            
-            .hotel10:hover{
-                transform: none;
-                transition: none;
-            }
-            
-            
-            .hotel11:hover{
-                transform: none;
-                transition: none;
-            }
-            
-            .hotel12:hover{
-                transform: none;
-                transition: none;
-            }
-            
-            
-            .hotel13:hover{
-                transform: none;
-                transition: none;
-            }
-            
-            .hotel14:hover{
-                transform: none;
-                transition: none;
-            }
-            
-            .hotel15:hover{
-                transform: none;
-                transition: none;
+                width: 82vw;
+                height: 20vh;
+                margin-bottom: 15px;
             }
             
         
@@ -953,7 +992,7 @@ margin-right: -10px;
             }
 
 
-    #laloupe {
+    #magnifyingglass {
     border-radius: 15px ;
         width: 35px;
 }
@@ -1012,13 +1051,57 @@ h3#Lespluspopulaires{
  }
 
 
- h3.activitéstitres{
+ h3.activitestitres{
     margin-left: 6vw;
  }
  section.activitesamarseille.activitesamarseille{
     margin-left: vw;
  }
 
+
+ .card:hover {
+    transform: none;
+    transition: none;
+    background-color: #DEEBFF;
+}
+
+.card2:hover {
+    transform: none;
+    transition: none;
+    background-color: #DEEBFF;
+}
+
+.hotel10:hover{
+    transform: none;
+    transition: none;
+}
+
+
+.hotel11:hover{
+    transform: none;
+    transition: none;
+}
+
+.hotel12:hover{
+    transform: none;
+    transition: none;
+}
+
+
+.hotel13:hover{
+    transform: none;
+    transition: none;
+}
+
+.hotel14:hover{
+    transform: none;
+    transition: none;
+}
+
+.hotel15:hover{
+    transform: none;
+    transition: none;
+}
 
     
      }
