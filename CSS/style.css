@@ -11,13 +11,14 @@ body {
     box-sizing: border-box;
 }
 
+
 body :not(footer) {
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 10px;    
 }
 
 
-#logo {
+.logo {
     width: 90px;
     height: 40px;
     padding-top: 50px;
@@ -49,12 +50,12 @@ a.menu-item{
     padding: 0;
 }
 
-#searchform {
+.searchform {
     display: flex;
     margin-bottom: 15px;
 }
 
-#searchdot {
+.searchdot {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +67,7 @@ a.menu-item{
     margin-left: -24px;
 }
 
-#rechercher {
+.rechercher {
     height: 45px;
     width: 170px;
     color: black;
@@ -89,7 +90,7 @@ a.menu-item{
     border-radius: 0 15px 15px 0;
 }
 
-#magnifyingglass {
+.magnifyingglass {
     height: 45px;
     width: 45px;
     display: flex;
@@ -117,27 +118,12 @@ section.filtres {
     padding: 0px;
 }
 
-#longbox1:hover {
+.longbox:hover {
     color: #ffffff;
     background-color: #0065fc;
 }
 
-#longbox2:hover {
-    color: #ffffff;
-    background-color: #0065fc;
-}
-
-#longbox3:hover {
-    color: #ffffff;
-    background-color: #0065fc;
-}
-
-#longbox4:hover {
-    color: #ffffff;
-    background-color: #0065fc;
-}
-
-#iconcircle {
+.iconcircle {
     width: 27px;
     height: 44px;
     color: #0065fc;
@@ -150,57 +136,9 @@ section.filtres {
     font-size: 15px;
 }
 
-#longbox1 {
+.longbox{
     display: flex;
-    width: 160px;
-    height: 38px;
-    border-radius: 35px;
-    border-color: #100f0f;
-    color: black;
-    font-weight: bold;
-    border: 2px solid #e6e2e2;
-    cursor: pointer;
-    align-self: center;
-    margin-right: 15px;
-    align-items: center;
-    gap: 10px;
-}
-
-#longbox2 {
-    display: flex;
-    width: 130px;
-    height: 38px;
-    border-radius: 35px;
-    border-color: #100f0f;
-    color: black;
-    font-weight: bold;
-    border: 2px solid #e6e2e2;
-    cursor: pointer;
-    align-self: center;
-    margin-right: 15px;
-    align-items: center;
-    gap: 10px;
-}
-
-#longbox3 {
-    display: flex;
-    width: 160px;
-    height: 38px;
-    border-radius: 35px;
-    border-color: #100f0f;
-    color: black;
-    font-weight: bold;
-    border: 2px solid #e6e2e2;
-    cursor: pointer;
-    align-self: center;
-    margin-right: 15px;
-    align-items: center;
-    gap: 10px;
-}
-
-#longbox4 {
-    display: flex;
-    width: 200px;
+    min-width: 120px;
     height: 38px;
     border-radius: 35px;
     border-color: #100f0f;
@@ -220,7 +158,7 @@ section.filtres {
     margin-top: 20px;
 }
 
-#leI {
+.leI {
     width: 3px;
     height: 20px;
     color: #0065fc;
@@ -267,7 +205,7 @@ div.starsreviews0 {
     margin-top: 15px;
 }
 
-#hebergementsamarseille p {
+.hebergementsamarseille p {
     margin-left: 1px;
 }
 
@@ -344,11 +282,11 @@ img.contain {
     width: 100%;
 }
 
-#Lespluspopulaires {
+.Lespluspopulaires {
     margin-top: 30px;
 }
 
-h3#Lespluspopulaires {
+h3.Lespluspopulaires {
     padding: 0px;
 }
 
@@ -603,7 +541,7 @@ footer {
 }
 
 @media (min-width: 993px) {
-    #magnifyingglass {
+    .magnifyingglass {
         display: none;
     }
 
@@ -629,7 +567,7 @@ footer {
         display: none;
     }
 
-    #magnifyingglass {
+    .magnifyingglass {
         margin-left: -11px;
     }
 
@@ -638,7 +576,7 @@ footer {
         padding-top: 35px;
     }
 
-    form#searchform {
+    form.searchform {
         margin-bottom: -10px;
     }
 
@@ -689,7 +627,7 @@ footer {
         padding: 0px;
     }
 
-    h3#Lespluspopulaires {
+    h3.Lespluspopulaires {
         margin-left: 30px;
         margin-bottom: 35px;
     }
@@ -847,7 +785,7 @@ footer {
         overflow-x: hidden;
     }
 
-    img#logo {
+    img.logo {
         width: 160px;
         height: 60px;
         margin-left: 30vw;
@@ -873,12 +811,12 @@ footer {
         justify-content: space-evenly;  
     }
 
-    #searchform {
+    .searchform {
         display: flex;
         margin-bottom: 15px;
     }
     
-    #searchdot {
+    .searchdot {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -890,7 +828,7 @@ footer {
         margin-left: -24px;
     }
     
-    #rechercher {
+    .rechercher {
         height: 55px;
         width: 80vw;
         color: black;
@@ -901,7 +839,7 @@ footer {
         margin-left: -20px;
     }
      
-    #magnifyingglass {
+    .magnifyingglass {
         height: 55px;
         width: 8vw;
         display: flex;
@@ -913,7 +851,7 @@ footer {
         border-radius: 15px;
     }
 
-    h3#Lespluspopulaires{
+    h3.Lespluspopulaires{
         font-size: 25px;
         margin-left: 8px;
     }

@@ -3,83 +3,76 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content"IE=edge">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <meta name="description" content="Booki site de réservation séjours hotels et activités">
     <title>Booki</title>
     <script src="https://kit.fontawesome.com/666540edff.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./CSS/style.css" />
-    
 </head>
 
 <body>
     <header>
         <nav class="navbar">
             <div>
-                <a href="index.html"><img id="logo" src="./images/logo/Booki.png" alt="logobooki"></a>
+                <a href="index.html"><img class="logo" src="./images/logo/Booki.png" alt="logobooki"></a>
             </div>
             <div>
                 <ul class="linksnav">
-                    <li><a class="menu-item"  id="item1"  href="#hebergementsamarseille">Hébergements</a></li>
-                    <li><a class="menu-item" id="item2"  href="#activitesamarseille">Activités</a></li>
+                    <li><a class="menu-item" href="#hebergementsamarseille">Hébergements</a></li>
+                    <li><a class="menu-item" href="#activitesamarseille">Activités</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
 
-
-
-
     <main>
+
         <section class="recherche">
             <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
             <p>En plein centre-ville ou en pleine nature</p>
-            <form id="searchform" method="post" action="traitement.php">
-                <div> <i id="searchdot" class="fa-solid fa-location-dot"></i> </div>
-                <input type="search" name="rechercher" id="rechercher" placeholder="Marseille,France">
+            <form class="searchform" method="post" action="traitement.php">
+                <div><i class=" searchdot fa-solid fa-location-dot"></i></div>
+                <input type="search" name="rechercher" class="rechercher" placeholder="Marseille,France">
                 <a class="searchbutton" href="#">Rechercher</a>
-                <a class="magnifyingglass" href="#"> <i id="magnifyingglass" class="fa-solid fa-magnifying-glass"></i></a>
-                </i></a>
+                <a class="magnifyingglass" href="#"> <i class="fa-solid fa-magnifying-glass"></i></a>
             </form>
         </section>
-
-
 
         <section class="filtres">
             <div>
                 <h4>Filtres</h4>
             </div>
-            <div id="longbox1" class="fi" class="filterhover">
-                <i class="fa-solid fa-money-bill-wave" id="iconcircle"></i>Économique
+            <div class="fi filterhover longbox">
+                <i class="fa-solid fa-money-bill-wave iconcircle"></i>Économique
             </div>
-            <div id=longbox2 class="fi" class="filterhover">
-                <i class="fa-solid fa-child-reaching" id="iconcircle"></i>Familial
+            <div class="fi filterhover longbox">
+                <i class="fa-solid fa-child-reaching iconcircle"></i>Familial
             </div>
-            <div id=longbox3 class="fi" class="filterhover">
-                <i class="fa-solid fa-heart" id="iconcircle"></i>Romantique
+            <div class="fi filterhover longbox">
+                <i class="fa-solid fa-heart iconcircle"></i>Romantique
             </div>
-            <div id=longbox4 class="fi" class="filterhover">
-                <i class="fa-solid fa-dog" id="iconcircle"></i>Animaux autorisés
+            <div class="fi filterhover longbox">
+                <i class="fa-solid fa-dog iconcircle"></i>Animaux autorisés
             </div>
         </section>
 
 
-        <div class="info">
-            <div><i id="leI" class="fa-solid fa-info"></i></div>
+        <section class="info">
+            <div><i class="fa-solid fa-info leI"></i></div>
             Plus de 500 logements sont disponibles dans cette ville
-        </div>
+        </section>
 
 
         <section class="hebergementcontainer">
 
             <div class="hebergementsamarseille" id="hebergementsamarseille">
-
-                <h3 class="hebergementstitle">Hébergements à Marseille</h3>
-
-                <div class="groupofhotels">
-
-                    <div class="hotel1 card">
+               <h3 class="hebergementstitle">Hébergements à Marseille</h3>
+                
+               <div class="groupofhotels">
+                    
+                    <div class="card">
                         <a href="#hebergementsamarseille">
                             <img class="contain"
                                 src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
@@ -96,9 +89,7 @@
                         </a>
                     </div>
 
-
-
-                    <div class="hotel2 card">
+                    <div class="card">
                         <a href="#hebergementsamarseille">
                             <img class="contain"
                                 src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
@@ -115,9 +106,7 @@
                         </a>
                     </div>
 
-
-
-                    <div class="hotel3 card">
+                    <div class="card">
                         <a href="#hebergementsamarseille">
                             <img class="contain" src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
                                 alt="hotellesmouettes">
@@ -133,7 +122,7 @@
                         </a>
                     </div>
 
-                    <div class="hotel4 card">
+                    <div class="card">
                         <a href="#hebergementsamarseille">
                             <img class="contain"
                                 src="./images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
@@ -150,9 +139,7 @@
                         </a>
                     </div>
 
-
-
-                    <div class="hotel5 card">
+                    <div class="card">
                         <a href="#hebergementsamarseille">
                             <img class="contain" src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
                                 alt="aubergelepanier">
@@ -168,9 +155,7 @@
                         </a>
                     </div>
 
-
-
-                    <div class="hotel6 card">
+                    <div class="card">
                         <a href="#hebergementsamarseille">
                             <img class="contain"
                                 src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
@@ -186,25 +171,18 @@
                             </div>
                         </a>
                     </div>
-
-
                 </div>
-                <a href="#">
-                    <p class="afficherplus">Afficher plus</p>
-                </a>
+                <a href="#"><p class="afficherplus">Afficher plus</p></a>
             </div>
-
-
-
 
 
             <div class="lespluspopulaires">
                 <div class="titleandstar">
                     <div>
-                        <h3 id="Lespluspopulaires">Les plus populaires </h3>
+                        <h3>Les plus populaires </h3>
                     </div>
                     <div class="etoile">
-                        <i class="fa-solid fa-star" style="color:black" id="blackstar"></i>
+                        <i class="fa-solid fa-star blackstar" style="color:black"></i>
                     </div>
                 </div>
 
@@ -213,12 +191,10 @@
                     <i class="fa-solid fa-star" style="color:black" id="blackstar"></i>
                 </div>
 
-                
-
                 <div class="linetrois">
-                    <a href="#Lespluspopulaires">
-                        <div class="hotel4 card2">
 
+                    <a href="#Lespluspopulaires">
+                        <div class="card2">
                             <img class="contain2"
                                 src="./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                                 alt="Hôtel Le soleil du matin">
@@ -237,8 +213,7 @@
                     </a>
 
                     <a href="#Lespluspopulaires">
-                        <div class="hotel5 card2">
-
+                        <div class="card2">
                             <img class="contain2"
                                 src="./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
                                 alt="Au Coeur de l'eau Chambres d'hôtes">
@@ -254,12 +229,11 @@
                                     <i class="fa-solid fa-star" style="color:#F2F2F2;"></i>
                                 </div>
                             </div>
-
                         </div>
                     </a>
 
                     <a href="#Lespluspopulaires">
-                        <div class="hotel6 card2">
+                        <div class="card2">
                             <img class="contain2"
                                 src="./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                                 alt="Hôtel Tout bleu et blanc">
@@ -278,38 +252,22 @@
                     </a>
                 </div>
             </div>
-
-
         </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
         <section id="activitesamarseille" class="activitesamarseille">
-
-            <h3 class="activitestitres">Activités à Marseille</h3>
-            <section class="etalement">
-                <section class="activites">
-
-
-                    <a href="#activitesamarseille">
-                        <div class="hotel10 ">
-                            <div class="grandcard"></div>
-                            <h4>Vieux Port</h4>
-                        </div>
-                    </a>
-
-
+                <h3 class="activitestitres">Activités à Marseille</h3>
+                    
+                <div class="group">
+                        
+                    <div class="activites">
+                        <a href="#activitesamarseille">
+                            <div class="hotel10 ">
+                                <div class="grandcard"></div>
+                                <h4>Vieux Port</h4>
+                            </div>
+                        </a>
+                        
                     <div class="deuxcases">
                         <a href="#activitesamarseille">
                             <div class="hotel11 ">
@@ -326,18 +284,12 @@
                         </a>
                     </div>
 
-
-
-
                     <a href="#activitesamarseille">
                         <div class="hotel13 ">
                             <div class="grandcard2"></div>
                             <h4>Parc National des Calanques</h4>
                         </div>
                     </a>
-
-
-
 
                     <div class="deuxcases">
                         <a href="#activitesamarseille">
@@ -347,7 +299,6 @@
                             </div>
                         </a>
 
-
                         <a href="#activitesamarseille">
                             <div class="hotel15 ">
                                 <div class="smallcard4"></div>
@@ -355,49 +306,40 @@
                             </div>
                         </a>
                     </div>
-                </section>
-            </section>
+                </div>
+            </div>
         </section>
-
-
-
-
-
-
-
-
+        
     </main>
+
     <footer>
-        <div>
-            <ul class="linksfooter">
-                <li>
-                    <h3>A propos</h3>
-                </li>
+        <div>   
+            <h3>A propos</h3>
+            <ul class="linksfooter"> 
                 <li><a href="#">Fonctionnement du site</a></li>
                 <li><a href="#">Conditions générales de vente</a></li>
                 <li><a href="#">Données et confidentialité</a></li>
             </ul>
         </div>
+
         <div>
-            <ul class="linksfooter">
-                <li>
-                    <h3>Nos hébergements</h3>
-                </li>
-                <li> <a href="#">Charte qualité</a></li>
+            <h3>Nos hébergements</h3>
+            <ul class="linksfooter"></ul>
+                <li><a href="#">Charte qualité</a></li>
                 <li><a href="#">Soumettre votre hotel</a></li>
             </ul>
         </div>
+
         <div>
-            <ul class="footerassistance">
-                <li>
-                    <h3>Assistance</h3>
-                </li>
+            <h3>Assistance</h3>
+            <ul class="linksfooter"></ul>
                 <li><a href="#">Centre d'aide</a></li>
                 <li> <a href="#">Nous contacter</a></li>
             </ul>
         </div>
-
+        
     </footer>
+
 </body>
 
 </html>
