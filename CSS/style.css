@@ -8,42 +8,55 @@
 
 body {
     font-family: "Raleway", "calibri", "Arial", sans-serif;
+    overflow-x: hidden;
     box-sizing: border-box;
+    
 }
-
 
 body :not(footer) {
     padding-left: 10px;
     padding-right: 10px;    
 }
 
-
-.logo {
-    width: 90px;
-    height: 40px;
-    padding-top: 50px;
+body ul,
+body li,
+body .no-padding,
+body header {
+    padding: 0;
 }
 
-.navbar {
+header {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0px;
+    margin-top: 30px;
 }
 
-.linksnav {
+header img{
+    width: 100px;
+}
+
+nav ul{
+    list-style: none;
     display: flex;
-    padding-top: 22px;
-    gap: 60px;
 }
 
-a.menu-item{
-    padding: 0px;
+nav li{
+    margin-right: 30px;
 }
 
-.menu-item:hover {
-    border-top: 3px solid #0065fc;
+a{
+    text-decoration: none;
+}
+
+nav a{
+    color: #0065FC;
+}
+
+nav a:hover{
     padding-top: 43px;
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+    
 }
 
 .recherche h3 {
@@ -118,11 +131,6 @@ section.filtres {
     padding: 0px;
 }
 
-.longbox:hover {
-    color: #ffffff;
-    background-color: #0065fc;
-}
-
 .iconcircle {
     width: 27px;
     height: 44px;
@@ -152,10 +160,16 @@ section.filtres {
     gap: 10px;
 }
 
+.longbox:hover {
+    color: #ffffff;
+    background-color: #0065fc;
+}
+
 .info {
     display: flex;
     margin-bottom: 40px;
     margin-top: 20px;
+    padding: 0;
 }
 
 .leI {
@@ -187,8 +201,8 @@ div.info {
     padding: 5px;
 }
 
-h3.hebergementstitle {
-    padding-left: 40px;
+.hebergementstitle {
+    padding-left: 55px;
     padding-top: 12px;
 }
 
@@ -210,12 +224,10 @@ div.starsreviews0 {
 }
 
 .afficherplus {
+    padding-left: 55px;
+    margin-top: 30px;
     font-weight: bold;
     font-size: 15px;
-}
-
-p.afficherplus {
-    padding-left: 55px;
 }
 
 .groupofhotels.a {
@@ -280,26 +292,21 @@ img.contain {
     display: flex;
     justify-content: space-between;
     width: 100%;
-}
-
-.Lespluspopulaires {
-    margin-top: 30px;
-}
-
-h3.Lespluspopulaires {
-    padding: 0px;
+    margin-top:  20px;
+    padding-left: 0px;
 }
 
 .etoile {
-    margin-top: 30px;
-    padding-right: 5%;
+    margin-top: 20px;
 }
 
 .linetrois {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: -27px;
+    margin-top: -30px;
+    padding-bottom: 40px;
+
 }
 
 div.textcard2{
@@ -341,8 +348,7 @@ div.textcard2{
     margin-left: -5px;
 }
 
-.textcard2 h3,
-p {
+.textcard2 h3,p {
     margin-left: -10px;
 }
 
@@ -379,59 +385,44 @@ p {
     bottom: 17px;
 }
 
-.grandcard {
-    height: 350px;
-    width: 19.3vw;
+.card3{
     border-radius: 15px 15px 0 0;
-    background-image: url("../images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    width: 19.3vw;
+}
+
+.grandcard {
+    height: 350px;
+    background-image: url("../images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
 }
 
 .grandcard2 {
     height: 350px;
-    width: 19.3vw;
-    border-radius: 15px 15px 0 0;
-    background-image: url("../images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
+    background-image: url("../images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");  
 }
 
 .smallcard1 {
     height: 150px;
-    width: 19.3vw;
-    border-radius: 15px 15px 0 0;
     background-image: url("../images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-}
-.smallcard2 {
-    height: 95px;
-    width: 19.3vw;
-    border-radius: 15px 15px 0 0;
-    background-image: url("../images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-}
-.smallcard3 {
-    height: 110px;
-    width: 19.3vw;
-    border-radius: 15px 15px 0 0;
-    background-image: url("../images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-}
-.smallcard4 {
-    height: 128px;
-    width: 19.3vw;
-    border-radius: 15px 15px 0 0;
-    background-image: url("../images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
-.hotel10 {
-    height: 400px;
+.smallcard2 {
+    height: 95px;
+    background-image: url("../images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+}
+
+.smallcard3 {
+    height: 110px;
+    background-image: url("../images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+}
+
+.smallcard4 {
+    height: 128px;
+    background-image: url("../images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+}
+
+.hotel{
     width: 20vw;
     border-radius: 15px;
     background-color: white;
@@ -440,105 +431,63 @@ p {
     font-weight: bolder;
     padding-left: 0px;
     margin-bottom: 0;
-}
+}  
 
-.hotel10:hover {
-    transform: scale(1.1);
-    transition: all 1s ease;
+.hotel10 {
+    height: 400px;
 }
 
 .hotel11 {
     height: 200px;
-    width: 20vw;
-    border-radius: 15px;
-    background-color: white;
-    box-shadow: 0 0 20px grey;
-    font-size: 13px;
-    font-weight: bolder;
-    padding-left: 0px;
-}
-
-.hotel11:hover {
-    transform: scale(1.1);
-    transition: all 1s ease;
 }
 
 .hotel12 {
     height: 145px;
-    width: 20vw;
-    border-radius: 15px;
-    background-color: white;
-    box-shadow: 0 0 20px grey;
     margin-top: 35px;
-    font-size: 13px;
-    font-weight: bolder;
-    padding-left: 0px;
-}
-.hotel12:hover {
-    transform: scale(1.1);
-    transition: all 1s ease;
 }
 
 .hotel13 {
     height: 400px;
-    width: 20vw;
-    border-radius: 15px;
-    background-color: white;
-    box-shadow: 0 0 20px grey;
-    font-size: 13px;
-    font-weight: bolder;
-    padding-left: 0px;
-}
-
-.hotel13:hover {
-    transform: scale(1.1);
-    transition: all 1s ease;
 }
 
 .hotel14 {
     height: 160px;
-    width: 20vw;
-    border-radius: 15px;
-    background-color: white;
-    box-shadow: 0 0 20px grey;
-    font-size: 13px;
-    font-weight: bolder;
-    padding-left: 0px;
-}
-
-.hotel14:hover {
-    transform: scale(1.1);
-    transition: all 1s ease;
 }
 
 .hotel15 {
     height: 180px;
-    width: 20vw;
-    border-radius: 15px;
-    background-color: white;
-    box-shadow: 0 0 20px grey;
     margin-top: 40px;
-    font-size: 13px;
-    font-weight: bolder;
-    padding-left: 0px;
 }
 
-.hotel15:hover {
+.hotel:hover {
     transform: scale(1.1);
     transition: all 1s ease;
 }
 
-footer {
+footer{
+    margin: -10px;
     background-color: #f2f2f2;
-    display: flex;
-    justify-content: flex-start;
-    gap: 120px;
-    margin-top: 60px;
-    padding-top: 20px;
-    margin-left: -15px;
-    line-height: 30px;
-    font-size: 15px;
 }
+
+.footermenu{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+footer a{
+    color: black;
+}
+
+footer li{
+    margin-bottom: 12px;
+}
+
 
 @media (min-width: 993px) {
     .magnifyingglass {
@@ -555,8 +504,8 @@ footer {
     body{
         padding-right: 0px;
         padding-left: 0px;
-        margin: 0px;
         overflow-x: hidden;
+        margin: 0px;
     }
     
     .titleandstar-768px {
@@ -571,10 +520,11 @@ footer {
         margin-left: -11px;
     }
 
-    .menu-item:hover {
-        border-top: 3px solid #0065fc;
-        padding-top: 35px;
+    .fa-magnifying-glass:before{
+        color: #ffffff;
+        font-weight: bold;
     }
+
 
     form.searchform {
         margin-bottom: -10px;
@@ -602,7 +552,7 @@ footer {
 
     .hebergementcontainer {
         flex-direction: column-reverse;
-       
+
     }
 
     .hebergementsamarseille {
@@ -624,19 +574,16 @@ footer {
         border-radius: 0px;
         min-width: 100vw;
         height: 650px;
-        padding: 0px;
     }
 
-    h3.Lespluspopulaires {
-        margin-left: 30px;
-        margin-bottom: 35px;
-    }
+    
     div.titleandstar{
         width: 90%;
     }
 
     div.etoile{
-        padding: 0;
+        padding: 0px;
+        margin-left: -23px;
     }
 
     .card {
@@ -653,7 +600,6 @@ footer {
     }
 
     .linetrois {
-        padding: 0px;
         margin-left: 50px;
     }
 
@@ -690,93 +636,61 @@ footer {
         margin-right: 20px;
     }
 
-    .hotel10 {
+    .hotel{
         width: 80vw;
-        height: 28vh;
-        margin-bottom: 20px;
+        height: 28vh;  
         font-size: 13px;
+    }
+
+    .hotel10 {
+        margin-bottom: 20px;
     }
 
     .hotel11 {
-        width: 80vw;
-        height: 28vh;
         margin-bottom: 0;
-        font-size: 13px;
     }
 
     .hotel12 {
-        width: 80vw;
-        height: 28vh;
         margin-top: 0;
-        font-size: 13px;
     }
 
     .hotel13 {
-        width: 80vw;
-        height: 28vh;
         margin-top: -16px;
         margin-bottom: 3vh;
         gap: 0;
-        font-size: 13px;
-    }
-
-    .hotel14 {
-        width: 80vw;
-        height: 28vh;
-        font-size: 13px;
     }
 
     .hotel15 {
-        width: 80vw;
-        height: 28vh;
         margin-bottom: 0.5vh;
         margin-top: 0;
-        font-size: 13px;
     }
 
-    .grandcard {
-        width: 79vw;
-        height: 20vh;
-        margin-bottom: 15px;
-    }
-
-    .grandcard2 {
+    .card3 {
         width: 79vw;
         height: 20vh;
         margin-bottom: 15px;
     }
 
-    .smallcard1 {
-        width: 79vw;
-        height: 20vh;
-        margin-bottom: 15px;
-    }
-    .smallcard2 {
-        width: 79vw;
-        height: 20vh;
-        margin-bottom: 15px;
-    }
+.footermenu{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    justify-content: space-between;
+}
 
-    .smallcard3 {
-        width: 79vw;
-        height: 20vh;
-        margin-bottom: 15px;
-    }
-    .smallcard4 {
-        width: 79vw;
-        height: 20vh;
-        margin-bottom: 15px;
-    }
+footer ul{
+    list-style-type: none;
+    padding: 0;
+}
 
-    footer {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        gap: 0;
-        font-size: larger;
-        margin-left: 0;
-        width: 99vw;
-    }
+footer a{
+    color: black;
+}
+
+footer li{
+    margin-bottom: 12px;
+}
+
 }
 
 @media (max-width: 768px){
@@ -785,31 +699,63 @@ footer {
         overflow-x: hidden;
     }
 
-    img.logo {
-        width: 160px;
-        height: 60px;
-        margin-left: 30vw;
+    header{
+        font-size: 1.3em;
+        display: initial;
     }
-
-    .linksnav {
+    
+    .logo{
         display: flex;
-        padding-top: 22px;
-        gap: 90px;
-        border-bottom: 4px solid #f2f2f2;
-        padding-bottom: 20px;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    .menu-item:hover {
+    header img{
+        width: 160px;
+        padding-left: 50v;
+        padding-left: 33vmax;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0;
+    }
+
+    nav a{
+        color: black;
+    }
+
+    nav ul{
+        padding: 0;
+        width: 100%;
+    }
+
+    nav ul li{
+        border-bottom: 4px solid #f2f2f2;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+        width: 50%;
+        text-align: center;
+    }
+
+    header ul li a:hover {
         border-top: none;
     }
 
-    .navbar {
-        flex-direction: column;
+    header ul li:hover {
+        border-bottom: 4px solid #0065fc;
+        padding-bottom: 20px;
     }
 
-    .linksnav {
-        justify-content: space-evenly;  
+    header ul li:hover a{
+        color: #0065fc;
     }
+
+
+   
 
     .searchform {
         display: flex;
@@ -847,6 +793,7 @@ footer {
         align-items: center;
         background-color: #0065fc;
         color: white;
+        margin-left: -20px;
         font-weight: bold;
         border-radius: 15px;
     }
@@ -915,113 +862,58 @@ footer {
         margin: 0;
     }
 
-    .hotel10:hover {
+    .hotel:hover {
         transform: none;
         transition: none;
-    }
+    }  
 
-    .hotel11:hover {
-        transform: none;
-        transition: none;
-    }
-
-    .hotel12:hover {
-        transform: none;
-        transition: none;
-    }
-
-    .hotel13:hover {
-        transform: none;
-        transition: none;
-    }
-
-    .hotel14:hover {
-        transform: none;
-        transition: none;
-    }
-
-    .hotel15:hover {
-        transform: none;
-        transition: none;
-    }
-
-    .hotel10 {
+    .hotel{
         width: 80vw;
-        height: 28vh;
-        margin-bottom: 20px;
+        height: 28vh; 
         font-size: 13px;
+    }
+
+    .hotel10{
+        margin-bottom: 20px;
     }
 
     .hotel11 {
-        width: 80vw;
-        height: 28vh;
         margin-bottom: 0;
-        font-size: 13px;
     }
 
     .hotel12 {
-        width: 80vw;
-        height: 28vh;
         margin-top: 0;
-        font-size: 13px;
     }
 
     .hotel13 {
-        width: 80vw;
-        height: 28vh;
         margin-top: -16px;
         margin-bottom: 3vh;
         gap: 0;
-        font-size: 13px;
-    }
-
-    .hotel14 {
-        width: 80vw;
-        height: 28vh;
-        font-size: 13px;
     }
 
     .hotel15 {
-        width: 80vw;
-        height: 28vh;
         margin-bottom: 0.5vh;
         margin-top: 0;
-        font-size: 13px;
     }
 
-    .grandcard {
-        width: 78vw;
-        height: 20vh;
-        margin-bottom: 15px;
-    }
-
-    .grandcard2 {
+    .card3 {
         width: 78vw;
         height: 20vh;
         margin-bottom: 15px;
     }
 
-    .smallcard1 {
-        width: 78vw;
-        height: 20vh;
-        margin-bottom: 15px;
-    }
-    .smallcard2 {
-        width: 78vw;
-        height: 20vh;
-        margin-bottom: 15px;
+     footer{
+        margin: -11px;
+        padding: 12px;
     }
 
-    .smallcard3 {
-        width: 78vw;
-        height: 20vh;
-        margin-bottom: 15px;
-    }
-    .smallcard4 {
-        width: 78vw;
-        height: 20vh;
-        margin-bottom: 15px;
+    footer a{
+        font-size: 1.4em;
+
     }
 
+    .footFlex{
+        flex-direction: column;
+    }
 
 }
