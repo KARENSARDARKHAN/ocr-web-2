@@ -558,42 +558,28 @@ form.searchform {
     flex-wrap: wrap;
 }
 
+.mainpart{
+    padding: 0px;
+}
+
 h3.hebergementstitle {
     margin-bottom: 40px;
     padding-left: 5px;
 }
 
 .hebergementcontainer {
-    flex-direction: column-reverse;
+    flex-direction: column-reverse; 
 }
 
 .hebergementsamarseille {
     background: none;
-    padding-left: 35px;
+    padding: 0px;
+    margin-left: 2.5vW;
 }
 
 .groupofhotels {
-    margin-right: 20px;
-    gap: 30px;
-}
-
-p.afficherplus {
-    padding-left: 45px;
-}
-
-.lespluspopulaires {
-    border-radius: 0px;
-    min-width: 100vw;
-    height: 650px;
-}
-
-div.titleandstar{
-    width: 90%;
-}
-
-div.etoile{
-    padding: 0px;
-    margin-left: -23px;
+    gap: 4.5vw;
+    margin-right: 3vw;
 }
 
 .card {
@@ -607,16 +593,52 @@ div.etoile{
 img.contain {
     width: 38.5vw;
     height: 120px;
+    margin-top: 3px;
+    margin-left: 0.2vw;
 }
 
-.linetrois {
-    margin-left: 50px;
+p.afficherplus {
+    padding-left: 45px;
+}
+
+.lespluspopulaires {
+    border-radius: 0px;
+    min-width: 100vw;
+    height: 650px;
+    padding: 0px;
+}
+
+.linetrois{
+    margin-left: 9vW;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.link{
+    padding: 0px;
+}
+
+div.titleandstar{
+    width: 92%;
+    padding: 0px;
+}
+
+.titleandstar h3{
+    padding: 0px;
+    margin-left: 3.5vw;
+}
+
+.titleandstar .title{
+    padding: 0px;
+}
+
+div.etoile{
+    padding: 0px;
 }
 
 .card2 {
     width: 82vw;
     height: 150px;
-    margin-left: 10px;
     font-size: 14px;
 }
 
@@ -635,21 +657,31 @@ div.starsreviews {
 
 .activitestitres {
     margin-top: 50px;
-    margin-left: 35px;
+    margin-left: 30px;
     margin-bottom: 40px;
 }
 
 .activites {
     flex-direction: column;
     flex-wrap: wrap;
-    padding-left: 70px; 
-    margin-right: 20px;
+    margin-left: 3vW;
+    padding: 0px;
+}
+
+.activitesamarseille{
+    padding: 0px;
+}
+
+.group{
+    padding: 0px;
+    margin-left: 5vw;
 }
 
 .hotel{
-    width: 80vw;
-    height: 28vh;  
+    width: 82vw;
+    height: 200px;  
     font-size: 13px;
+    padding: 0px;
 }
 
 .hotel10 {
@@ -676,16 +708,18 @@ div.starsreviews {
 }
 
 .card3 {
-    width: 79vw;
-    height: 20vh;
+    width: 82vw;
+    height: 150px;
     margin-bottom: 15px;
+    padding: 0px;
 }
 
 .footermenu {
     display: flex;
     flex-direction: column;
     max-width: 1200px;
-    gap: 0px; 
+    gap: 2px; 
+    margin-left: 7vw;
 }
 
 footer ul {
@@ -804,47 +838,34 @@ header ul li:hover a {
     border-radius: 15px;
 }
 
-h3.Lespluspopulaires {
-    font-size: 25px;
-    margin-left: 8px;
-}
-
-.linetrois {
-    margin-left:10px;  
-}
-
 .hebergementsamarseille {
-    padding-left: 0px;
+    background: none;
+    padding: 0px;
+    margin-left: 2.5vW;
 }
 
 .groupofhotels {
-    flex-direction: column;
-    margin-left: 15px;
-    padding-left: 0;
-}
-
-h3.hebergementstitle {
-    font-size: 25px;
-    margin-left: 8px;
+    gap: 4.5vw;
+    margin-left: -5vW;
 }
 
 .card {
-    width: 84vw;
-    height: 30vh;
-    margin-bottom: 6vh;
-    padding: 0.5vmax;
-    font-size: 2vmax;
+    width: 82vw;
+    height: 200px;
+    font-size: 10px;
     margin-bottom: 0.6vh;
-    margin-left: 2vw;
+    font-size: smaller;
 }
 
 img.contain {
-    width: 83.7vw;
-    height: 17vh;
+    width: 81.5vw;
+    height: 120px;
+    margin-top: 3px;
+    margin-left: 0.2vw;
 }
 
 p.afficherplus {
-    padding-left: 22px;
+    padding-left: 45px;
 }
 
 .card:hover {
@@ -859,66 +880,23 @@ p.afficherplus {
     background-color: #deebff;
 }
 
-h3.activitestitres {
-    font-size: 25px;
-    margin-left: 15px;
-}
-
-section.activites {
-    padding: 0;
-    margin: 0;
-}
-
 .hotel:hover {
     transform: none;
     transition: none;
 }  
-
-.hotel{
-    width: 80vw;
-    height: 28vh; 
-    font-size: 13px;
-}
-
-.hotel10{
-    margin-bottom: 20px;
-}
-
-.hotel11 {
-    margin-bottom: 0;
-}
-
-.hotel12 {
-    margin-top: 0;
-}
-
-.hotel13 {
-    margin-top: -16px;
-    margin-bottom: 3vh;
-    gap: 0;
-}
-
-.hotel15 {
-    margin-bottom: 0.5vh;
-    margin-top: 0;
-}
-
-.card3 {
-    width: 78vw;
-    height: 20vh;
-    margin-bottom: 15px;
-}
 
 footer {
     margin: -11px;
     padding: 12px;
 }
 
+.footermenu{
+    display: flex;
+    flex-direction: column;
+}
+
 footer a {
     font-size: 1.4em;
 }
 
-.footFlex {
-    flex-direction: column;
-}
 }
