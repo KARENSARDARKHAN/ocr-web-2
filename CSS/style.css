@@ -462,6 +462,7 @@ div.textcard2{
 .hotel:hover {
     transform: scale(1.1);
     transition: all 1s ease;
+    background-color: #deebff;
 }
 
 footer{
@@ -564,7 +565,7 @@ form.searchform {
 
 h3.hebergementstitle {
     margin-bottom: 40px;
-    padding-left: 5px;
+    padding-left: 9px;
 }
 
 .hebergementcontainer {
@@ -574,16 +575,15 @@ h3.hebergementstitle {
 .hebergementsamarseille {
     background: none;
     padding: 0px;
-    margin-left: 2.5vW;
+    margin-left: 1vW;
 }
 
 .groupofhotels {
-    gap: 4.5vw;
-    margin-right: 3vw;
+    gap: 4.2Vw;
 }
 
 .card {
-    width: 39vw;
+    width: 43vw;
     height: 200px;
     font-size: 10px;
     margin-bottom: 0.6vh;
@@ -591,14 +591,14 @@ h3.hebergementstitle {
 }
 
 img.contain {
-    width: 38.5vw;
+    width: 42.5vw;
     height: 120px;
     margin-top: 3px;
     margin-left: 0.2vw;
 }
 
 p.afficherplus {
-    padding-left: 45px;
+    margin-left: -3vw;
 }
 
 .lespluspopulaires {
@@ -609,7 +609,7 @@ p.afficherplus {
 }
 
 .linetrois{
-    margin-left: 9vW;
+    margin-left: 4.9vW;
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -619,7 +619,7 @@ p.afficherplus {
 }
 
 div.titleandstar{
-    width: 92%;
+    width: 96%;
     padding: 0px;
 }
 
@@ -637,13 +637,13 @@ div.etoile{
 }
 
 .card2 {
-    width: 82vw;
+    width: 90vw;
     height: 150px;
     font-size: 14px;
 }
 
 img.contain2 {
-    width: 30vw;
+    width: 35vw;
     height: 140px;
 }
 
@@ -657,14 +657,14 @@ div.starsreviews {
 
 .activitestitres {
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 25px;
     margin-bottom: 40px;
 }
 
 .activites {
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left: 3vW;
+    margin-left: 3.7vW;
     padding: 0px;
 }
 
@@ -674,11 +674,10 @@ div.starsreviews {
 
 .group{
     padding: 0px;
-    margin-left: 5vw;
 }
 
 .hotel{
-    width: 82vw;
+    width: 89.9vw;
     height: 200px;  
     font-size: 13px;
     padding: 0px;
@@ -708,7 +707,7 @@ div.starsreviews {
 }
 
 .card3 {
-    width: 82vw;
+    width: 89.9vw;
     height: 150px;
     margin-bottom: 15px;
     padding: 0px;
@@ -719,7 +718,7 @@ div.starsreviews {
     flex-direction: column;
     max-width: 1200px;
     gap: 2px; 
-    margin-left: 7vw;
+    margin-left: 2.5vw;
 }
 
 footer ul {
@@ -756,7 +755,7 @@ header{
 
 header img {
     width: 160px;
-    margin-left: 33vw;
+    padding-left: 33vw;
 }
 
 nav {
@@ -841,16 +840,15 @@ header ul li:hover a {
 .hebergementsamarseille {
     background: none;
     padding: 0px;
-    margin-left: 2.5vW;
+    margin-left: 0.5vW;
 }
 
 .groupofhotels {
     gap: 4.5vw;
-    margin-left: -5vW;
 }
 
 .card {
-    width: 82vw;
+    width: 90vw;
     height: 200px;
     font-size: 10px;
     margin-bottom: 0.6vh;
@@ -858,14 +856,15 @@ header ul li:hover a {
 }
 
 img.contain {
-    width: 81.5vw;
+    width: 89.5vw;
     height: 120px;
     margin-top: 3px;
     margin-left: 0.2vw;
 }
 
 p.afficherplus {
-    padding-left: 45px;
+    padding-left: 40px;
+    font-size: large;
 }
 
 .card:hover {
@@ -883,11 +882,10 @@ p.afficherplus {
 .hotel:hover {
     transform: none;
     transition: none;
-}  
+} 
 
-footer {
-    margin: -11px;
-    padding: 12px;
+.activitestitres {
+    margin-left: 20px;
 }
 
 .footermenu{
