@@ -55,8 +55,7 @@ nav a{
 nav a:hover{
     padding-top: 43px;
     border-top: 3px solid #0065FC;
-    color: #0065FC;
-    
+    color: #0065FC;  
 }
 
 .recherche h3 {
@@ -115,7 +114,7 @@ nav a:hover{
     border-radius: 0 15px 15px 0;
 }
 
-.filtres {
+.filtres{
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
@@ -840,8 +839,9 @@ header ul li:hover a {
     border-radius: 15px;
 }
 
-.filtres{
-    flex-flow: nowrap;
+.filtres h4{
+    margin-right: 800px;
+    margin-bottom: 20px;
 }
 
 .hebergementsamarseille {
