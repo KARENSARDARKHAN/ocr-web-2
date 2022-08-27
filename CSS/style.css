@@ -306,7 +306,6 @@ img.contain {
     justify-content: flex-start;
     margin-top: -30px;
     padding-bottom: 40px;
-
 }
 
 div.textcard2{
@@ -555,17 +554,13 @@ form.searchform {
     margin-left: 10px;
 }
 
-.info {
-    flex-wrap: wrap;
-}
-
 .mainpart{
     padding: 0px;
 }
 
 h3.hebergementstitle {
     margin-bottom: 40px;
-    padding-left: 9px;
+    padding-left: 2.5vw;
 }
 
 .hebergementcontainer {
@@ -657,14 +652,14 @@ div.starsreviews {
 
 .activitestitres {
     margin-top: 50px;
-    margin-left: 25px;
+    margin-left: 3vw;
     margin-bottom: 40px;
 }
 
 .activites {
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left: 3vW;
+    margin-left: 3.5vW;
     padding: 0px;
 }
 
@@ -718,7 +713,7 @@ div.starsreviews {
     flex-direction: column;
     max-width: 1200px;
     gap: 2px; 
-    margin-left: 2.5vw;
+    margin-left: 2vw;
 }
 
 footer ul {
@@ -796,6 +791,14 @@ header ul li:hover a {
     color: #0065fc;
 }
 
+.recherche h3{
+    font-size: 25px;
+}
+
+.recherche p{
+    font-size: 18px;
+}
+
 .searchform {
     display: flex;
     margin-bottom: 15px;
@@ -837,10 +840,18 @@ header ul li:hover a {
     border-radius: 15px;
 }
 
+.filtres{
+    flex-flow: nowrap;
+}
+
 .hebergementsamarseille {
     background: none;
     padding: 0px;
     margin-left: 0.5vW;
+}
+
+h3.hebergementstitle{
+    font-size: 25px;
 }
 
 .groupofhotels {
@@ -867,6 +878,10 @@ p.afficherplus {
     font-size: large;
 }
 
+.titleandstar{
+    font-size: 20px;
+}
+
 .card:hover {
     transform: none;
     transition: none;
@@ -886,11 +901,17 @@ p.afficherplus {
 
 .activitestitres {
     margin-left: 20px;
+    font-size: 25px;
+}
+
+.activites {
+    margin-left: 2.2vW;
 }
 
 .footermenu{
     display: flex;
     flex-direction: column;
+    margin-left: 0.5vw;
 }
 
 footer a {
